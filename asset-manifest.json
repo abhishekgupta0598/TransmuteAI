@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TransmuteAI/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/TransmuteAI/static/js/main.a59f1ac5.chunk.js",
+    "main.js.map": "/TransmuteAI/static/js/main.a59f1ac5.chunk.js.map",
+    "runtime-main.js": "/TransmuteAI/static/js/runtime-main.f698f90a.js",
+    "runtime-main.js.map": "/TransmuteAI/static/js/runtime-main.f698f90a.js.map",
+    "static/css/2.b0300f7a.chunk.css": "/TransmuteAI/static/css/2.b0300f7a.chunk.css",
+    "static/js/2.c1312aea.chunk.js": "/TransmuteAI/static/js/2.c1312aea.chunk.js",
+    "static/js/2.c1312aea.chunk.js.map": "/TransmuteAI/static/js/2.c1312aea.chunk.js.map",
+    "static/js/3.79452790.chunk.js": "/TransmuteAI/static/js/3.79452790.chunk.js",
+    "static/js/3.79452790.chunk.js.map": "/TransmuteAI/static/js/3.79452790.chunk.js.map",
+    "index.html": "/TransmuteAI/index.html",
+    "static/css/2.b0300f7a.chunk.css.map": "/TransmuteAI/static/css/2.b0300f7a.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/TransmuteAI/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.c1312aea.chunk.js.LICENSE.txt": "/TransmuteAI/static/js/2.c1312aea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f698f90a.js",
+    "static/css/2.b0300f7a.chunk.css",
+    "static/js/2.c1312aea.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.a59f1ac5.chunk.js"
+  ]
+}
