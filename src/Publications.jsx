@@ -27,7 +27,7 @@ export default function Publications() {
             <a
               className={classes.heading}
               href=" "
-              onClick={() => history.push("/rescaling")}
+              onClick={() => history.push("/TransmuteAI/rescaling")}
             >
               Rescaling CNN through Learnable Repetition of Network Parameters
             </a>
@@ -35,22 +35,22 @@ export default function Publications() {
           <div className={classes.width}>
             {/* <div className={classes.root}> */}
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/arnav")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/arnav")}>
                 Arnav Chavan ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/udbhav")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/udbhav")}>
                 Udbhav Bamba ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/rishab")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/rishab")}>
                 Rishabh Tiwari ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/deepak")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
                 Deepak K. Gupta
               </a>
             </h6>
@@ -70,7 +70,7 @@ export default function Publications() {
             >
               <Button
                 className={classes.link}
-                onClick={() => history.push("/rescaling")}
+                onClick={() => history.push("/TransmuteAI/rescaling")}
               >
                 Details
               </Button>
@@ -101,7 +101,7 @@ export default function Publications() {
           <h5>
             <a
               className={classes.heading}
-              onClick={() => history.push("/generating")}
+              onClick={() => history.push("/TransmuteAI/generating")}
               href=" "
             >
               Generating Annotated High-Fidelity Images containing Multiple
@@ -111,17 +111,20 @@ export default function Publications() {
           <div className={classes.width}>
             {/* <div className={classes.root}> */}
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/bryan")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/bryan")}>
                 Bryan Cardenas ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/deepanshu")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/deepanshu")}
+              >
                 devanshu Arya ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/deepak")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
                 Deepak Kumar Gupta.
               </a>
             </h6>
@@ -172,7 +175,7 @@ export default function Publications() {
           <h5>
             <a
               className={classes.heading}
-              onClick={() => history.push("/chipnets")}
+              onClick={() => history.push("/TransmuteAI/chipnets")}
               href=" "
             >
               ChipNet: Budget-Aware Pruning with Heaviside Continuous
@@ -182,22 +185,22 @@ export default function Publications() {
           <div className={classes.width}>
             {/* <div className={classes.root}> */}
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/rishab")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/rishab")}>
                 Rishabh Tiwari ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/udbhav")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/udbhav")}>
                 Udbhav Bamba ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/arnav")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/arnav")}>
                 Arnav Chavan ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/deepak")}>
+              <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
                 Deepak K. Gupta
               </a>
             </h6>

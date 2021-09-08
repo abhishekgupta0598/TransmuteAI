@@ -21,18 +21,18 @@ export default class App extends Component {
         <Router>
           <Nav />
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/software" component={JoinUs} />
-            <Route path="/rishab" component={Rishab} />
-            <Route path="/udbhav" component={Udbhav} />
-            <Route path="/deepanshu" component={Deepanshu} />
-            <Route path="/bryan" component={Bryan} />
-            <Route path="/arnav" component={Arnav} />
-            <Route path="/Deepak" component={Deepak} />
-            <Route path="/chipnets" component={ChipNet} />
-            <Route path="/rescaling" component={Rescaling} />
-            <Route path="/generating" component={Generating} />
-            <Route path="/publications" component={Publications} />
+            <Route path="/TransmuteAI" exact component={Home} />
+            <Route path="/TransmuteAI/joinus" component={JoinUs} />
+            <Route path="/TransmuteAI/rishab" component={Rishab} />
+            <Route path="/TransmuteAI/udbhav" component={Udbhav} />
+            <Route path="/TransmuteAI/deepanshu" component={Deepanshu} />
+            <Route path="/TransmuteAI/bryan" component={Bryan} />
+            <Route path="/TransmuteAI/arnav" component={Arnav} />
+            <Route path="/TransmuteAI/Deepak" component={Deepak} />
+            <Route path="/TransmuteAI/chipnets" component={ChipNet} />
+            <Route path="/TransmuteAI/rescaling" component={Rescaling} />
+            <Route path="/TransmuteAI/generating" component={Generating} />
+            <Route path="/TransmuteAI/publications" component={Publications} />
           </Switch>
         </Router>
       </div>

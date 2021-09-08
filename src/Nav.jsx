@@ -93,7 +93,7 @@ export default function Nav() {
       <List>
         <ListItem>
           <ListItemIcon></ListItemIcon>
-          <ListItemText onClick={() => history.push("/")}>
+          <ListItemText onClick={() => history.push("/TransmuteAI")}>
             <div className={classes.sideBarFont}>Home</div>
           </ListItemText>
         </ListItem>
@@ -117,13 +117,15 @@ export default function Nav() {
         </ListItem>
         <ListItem>
           <ListItemIcon></ListItemIcon>
-          <ListItemText onClick={() => history.push("/publications")}>
+          <ListItemText
+            onClick={() => history.push("/TransmuteAI/publications")}
+          >
             <div className={classes.sideBarFont}>Publications</div>
           </ListItemText>
         </ListItem>
         <ListItem>
           <ListItemIcon></ListItemIcon>
-          <ListItemText onClick={() => history.push("/software")}>
+          <ListItemText onClick={() => history.push("/TransmuteAI/joinus")}>
             <div className={classes.sideBarFont}>Join Us</div>
           </ListItemText>
         </ListItem>
@@ -140,7 +142,10 @@ export default function Nav() {
               <Typography variant="h6" className={classes.title}>
                 Transmute AI
               </Typography>
-              <Button color="inherit" onClick={() => history.push("/")}>
+              <Button
+                color="inherit"
+                onClick={() => history.push("/TransmuteAI")}
+              >
                 Home
               </Button>
               <Button color="inherit">Projects</Button>
@@ -148,11 +153,14 @@ export default function Nav() {
               <Button color="inherit">Courses</Button>
               <Button
                 color="inherit"
-                onClick={() => history.push("/publications")}
+                onClick={() => history.push("/TransmuteAI/publications")}
               >
                 Publications
               </Button>
-              <Button color="inherit" onClick={() => history.push("/software")}>
+              <Button
+                color="inherit"
+                onClick={() => history.push("/TransmuteAI/joinus")}
+              >
                 Join us
               </Button>
               <a

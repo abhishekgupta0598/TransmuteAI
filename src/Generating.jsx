@@ -73,17 +73,17 @@ export default function Generating() {
         </h4>
         <div className={classes.width}>
           <h6 className={classes.float}>
-            <a href=" " onClick={() => history.push("/bryan")}>
+            <a href=" " onClick={() => history.push("/TransmuteAI/bryan")}>
               Bryan Cardenas ,
             </a>
           </h6>
           <h6 className={classes.float}>
-            <a href=" " onClick={() => history.push("/deepanshu")}>
+            <a href=" " onClick={() => history.push("/TransmuteAI/deepanshu")}>
               Devanshu Arya ,
             </a>
           </h6>
           <h6 className={classes.float}>
-            <a href=" " onClick={() => history.push("/deepak")}>
+            <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
               Deepak K. Gupta
             </a>
           </h6>
