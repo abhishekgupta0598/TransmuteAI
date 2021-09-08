@@ -92,59 +92,41 @@ export default function Nav() {
     >
       <List>
         <ListItem>
-          <ListItemIcon>
-            {/* {<PageviewTwoToneIcon className={classes.sideBarLogo} />} */}
-          </ListItemIcon>
+          <ListItemIcon></ListItemIcon>
           <ListItemText onClick={() => history.push("/")}>
             <div className={classes.sideBarFont}>Home</div>
           </ListItemText>
         </ListItem>
-        {/* <Divider /> */}
         <ListItem>
-          <ListItemIcon>
-            {/* {<PageviewTwoToneIcon className={classes.sideBarLogo} />} */}
-          </ListItemIcon>
+          <ListItemIcon></ListItemIcon>
           <ListItemText>
             <div className={classes.sideBarFont}>Projects</div>
           </ListItemText>
         </ListItem>
-        {/* <Divider /> */}
         <ListItem>
-          <ListItemIcon>
-            {/* {<PageviewTwoToneIcon className={classes.sideBarLogo} />} */}
-          </ListItemIcon>
+          <ListItemIcon></ListItemIcon>
           <ListItemText>
             <div className={classes.sideBarFont}>Members</div>
           </ListItemText>
         </ListItem>
-        {/* <Divider /> */}
         <ListItem>
-          <ListItemIcon>
-            {/* {<PageviewTwoToneIcon className={classes.sideBarLogo} />} */}
-          </ListItemIcon>
+          <ListItemIcon></ListItemIcon>
           <ListItemText>
             <div className={classes.sideBarFont}>Courses</div>
           </ListItemText>
         </ListItem>
-        {/* <Divider /> */}
         <ListItem>
-          <ListItemIcon>
-            {/* {<PageviewTwoToneIcon className={classes.sideBarLogo} />} */}
-          </ListItemIcon>
-          <ListItemText>
+          <ListItemIcon></ListItemIcon>
+          <ListItemText onClick={() => history.push("/publications")}>
             <div className={classes.sideBarFont}>Publications</div>
           </ListItemText>
         </ListItem>
-        {/* <Divider /> */}
         <ListItem>
-          <ListItemIcon>
-            {/* {<PageviewTwoToneIcon className={classes.sideBarLogo} />} */}
-          </ListItemIcon>
+          <ListItemIcon></ListItemIcon>
           <ListItemText onClick={() => history.push("/software")}>
             <div className={classes.sideBarFont}>Join Us</div>
           </ListItemText>
         </ListItem>
-        {/* <Divider /> */}
       </List>
     </div>
   );
@@ -164,7 +146,12 @@ export default function Nav() {
               <Button color="inherit">Projects</Button>
               <Button color="inherit">Members</Button>
               <Button color="inherit">Courses</Button>
-              <Button color="inherit">Publications</Button>
+              <Button
+                color="inherit"
+                onClick={() => history.push("/publications")}
+              >
+                Publications
+              </Button>
               <Button color="inherit" onClick={() => history.push("/software")}>
                 Join us
               </Button>
