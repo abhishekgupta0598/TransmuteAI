@@ -82,7 +82,9 @@ export default function Publications() {
             >
               <Button
                 className={classes.link}
-                onClick={() => history.push("/TransmuteAI/rescaling")}
+                onClick={() =>
+                  history.push("/TransmuteAI/publications/rescaling")
+                }
               >
                 Details
               </Button>
