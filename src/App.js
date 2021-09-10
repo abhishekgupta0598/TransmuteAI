@@ -28,7 +28,7 @@ export default class App extends Component {
             <Route path="/TransmuteAI/deepanshu" component={Deepanshu} />
             <Route path="/TransmuteAI/bryan" component={Bryan} />
             <Route path="/TransmuteAI/arnav" component={Arnav} />
-            <Route path="/TransmuteAI/Deepak" component={Deepak} />
+            <Route path="/TransmuteAI/deepak" component={Deepak} />
             <Route path="/TransmuteAI/chipnets" component={ChipNet} />
             <Route path="/TransmuteAI/rescaling" component={Rescaling} />
             <Route path="/TransmuteAI/generating" component={Generating} />

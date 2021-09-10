@@ -33,7 +33,6 @@ export default function Publications() {
             </a>
           </h5>
           <div className={classes.width}>
-            {/* <div className={classes.root}> */}
             <h6 className={classes.none}>
               <a href=" " onClick={() => history.push("/TransmuteAI/arnav")}>
                 Arnav Chavan ,
@@ -54,7 +53,6 @@ export default function Publications() {
                 Deepak K. Gupta
               </a>
             </h6>
-            {/* </div> */}
           </div>
           <div className={classes.inter}>
             <h6 className={classes.paragraph}>
@@ -109,7 +107,6 @@ export default function Publications() {
             </a>
           </h5>
           <div className={classes.width}>
-            {/* <div className={classes.root}> */}
             <h6 className={classes.none}>
               <a href=" " onClick={() => history.push("/TransmuteAI/bryan")}>
                 Bryan Cardenas ,
@@ -128,7 +125,6 @@ export default function Publications() {
                 Deepak Kumar Gupta.
               </a>
             </h6>
-            {/* </div> */}
           </div>
           <div className={classes.inter}>
             <h6 className={classes.paragraph}>
@@ -144,7 +140,7 @@ export default function Publications() {
             >
               <Button
                 className={classes.link}
-                onClick={() => history.push("/generating")}
+                onClick={() => history.push("/TransmuteAI/generating")}
               >
                 Details
               </Button>
@@ -183,7 +179,6 @@ export default function Publications() {
             </a>
           </h5>
           <div className={classes.width}>
-            {/* <div className={classes.root}> */}
             <h6 className={classes.none}>
               <a href=" " onClick={() => history.push("/TransmuteAI/rishab")}>
                 Rishabh Tiwari ,
@@ -204,7 +199,6 @@ export default function Publications() {
                 Deepak K. Gupta
               </a>
             </h6>
-            {/* </div> */}
           </div>
           <div className={classes.inter}>
             <h6 className={classes.paragraph}>
@@ -220,7 +214,7 @@ export default function Publications() {
             >
               <Button
                 className={classes.link}
-                onClick={() => history.push("/chipnets")}
+                onClick={() => history.push("/TransmuteAI/chipnets")}
               >
                 Details
               </Button>
