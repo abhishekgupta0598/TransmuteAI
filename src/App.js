@@ -23,15 +23,27 @@ export default class App extends Component {
           <Switch>
             <Route path="/TransmuteAI" exact component={Home} />
             <Route path="/TransmuteAI/joinus" component={JoinUs} />
-            <Route path="/TransmuteAI/rishab" component={Rishab} />
-            <Route path="/TransmuteAI/udbhav" component={Udbhav} />
-            <Route path="/TransmuteAI/deepanshu" component={Deepanshu} />
-            <Route path="/TransmuteAI/bryan" component={Bryan} />
-            <Route path="/TransmuteAI/arnav" component={Arnav} />
-            <Route path="/TransmuteAI/deepak" component={Deepak} />
-            <Route path="/TransmuteAI/chipnets" component={ChipNet} />
-            <Route path="/TransmuteAI/rescaling" component={Rescaling} />
-            <Route path="/TransmuteAI/generating" component={Generating} />
+            <Route path="/TransmuteAI/publications/rishab" component={Rishab} />
+            <Route path="/TransmuteAI/publications/udbhav" component={Udbhav} />
+            <Route
+              path="/TransmuteAI/publications/deepanshu"
+              component={Deepanshu}
+            />
+            <Route path="/TransmuteAI/publications/bryan" component={Bryan} />
+            <Route path="/TransmuteAI/publications/arnav" component={Arnav} />
+            <Route path="/TransmuteAI/publications/deepak" component={Deepak} />
+            <Route
+              path="/TransmuteAI/publications/chipnets"
+              component={ChipNet}
+            />
+            <Route
+              path="/TransmuteAI/publications/rescaling"
+              component={Rescaling}
+            />
+            <Route
+              path="/TransmuteAI/publications/generating"
+              component={Generating}
+            />
             <Route path="/TransmuteAI/publications" component={Publications} />
           </Switch>
         </Router>

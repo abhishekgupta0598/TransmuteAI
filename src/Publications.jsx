@@ -27,29 +27,43 @@ export default function Publications() {
             <a
               className={classes.heading}
               href=" "
-              onClick={() => history.push("/TransmuteAI/rescaling")}
+              onClick={() =>
+                history.push("/TransmuteAI/publications/rescaling")
+              }
             >
               Rescaling CNN through Learnable Repetition of Network Parameters
             </a>
           </h5>
           <div className={classes.width}>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/arnav")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/arnav")}
+              >
                 Arnav Chavan ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/udbhav")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+              >
                 Udbhav Bamba ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/rishab")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/rishab")}
+              >
                 Rishabh Tiwari ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/deepak")}
+              >
                 Deepak K. Gupta
               </a>
             </h6>
@@ -99,7 +113,9 @@ export default function Publications() {
           <h5>
             <a
               className={classes.heading}
-              onClick={() => history.push("/TransmuteAI/generating")}
+              onClick={() =>
+                history.push("/TransmuteAI/publications/generating")
+              }
               href=" "
             >
               Generating Annotated High-Fidelity Images containing Multiple
@@ -108,20 +124,28 @@ export default function Publications() {
           </h5>
           <div className={classes.width}>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/bryan")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/bryan")}
+              >
                 Bryan Cardenas ,
               </a>
             </h6>
             <h6 className={classes.none}>
               <a
                 href=" "
-                onClick={() => history.push("/TransmuteAI/deepanshu")}
+                onClick={() =>
+                  history.push("/TransmuteAI/publications/deepanshu")
+                }
               >
                 devanshu Arya ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/deepak")}
+              >
                 Deepak Kumar Gupta.
               </a>
             </h6>
@@ -140,7 +164,9 @@ export default function Publications() {
             >
               <Button
                 className={classes.link}
-                onClick={() => history.push("/TransmuteAI/generating")}
+                onClick={() =>
+                  history.push("/TransmuteAI/publications/generating")
+                }
               >
                 Details
               </Button>
@@ -171,7 +197,7 @@ export default function Publications() {
           <h5>
             <a
               className={classes.heading}
-              onClick={() => history.push("/TransmuteAI/chipnets")}
+              onClick={() => history.push("/TransmuteAI/publications/chipnets")}
               href=" "
             >
               ChipNet: Budget-Aware Pruning with Heaviside Continuous
@@ -180,22 +206,34 @@ export default function Publications() {
           </h5>
           <div className={classes.width}>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/rishab")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/rishab")}
+              >
                 Rishabh Tiwari ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/udbhav")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+              >
                 Udbhav Bamba ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/arnav")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/arnav")}
+              >
                 Arnav Chavan ,
               </a>
             </h6>
             <h6 className={classes.none}>
-              <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
+              <a
+                href=" "
+                onClick={() => history.push("/TransmuteAI/publications/deepak")}
+              >
                 Deepak K. Gupta
               </a>
             </h6>
@@ -214,7 +252,9 @@ export default function Publications() {
             >
               <Button
                 className={classes.link}
-                onClick={() => history.push("/TransmuteAI/chipnets")}
+                onClick={() =>
+                  history.push("/TransmuteAI/publications/chipnets")
+                }
               >
                 Details
               </Button>

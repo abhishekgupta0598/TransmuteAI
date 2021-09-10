@@ -72,22 +72,34 @@ export default function ChipNet() {
         </h4>
         <div className={classes.width}>
           <h6 className={classes.float}>
-            <a href=" " onClick={() => history.push("/TransmuteAI/rishab")}>
+            <a
+              href=" "
+              onClick={() => history.push("/TransmuteAI/publications/rishab")}
+            >
               Rishabh Tiwari ,
             </a>
           </h6>
           <h6 className={classes.float}>
-            <a href=" " onClick={() => history.push("/TransmuteAI/udbhav")}>
+            <a
+              href=" "
+              onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+            >
               Udbhav Bamba ,
             </a>
           </h6>
           <h6 className={classes.float}>
-            <a href=" " onClick={() => history.push("/TransmuteAI/arnav")}>
+            <a
+              href=" "
+              onClick={() => history.push("/TransmuteAI/publications/arnav")}
+            >
               Arnav Chavan ,
             </a>
           </h6>
           <h6 className={classes.float}>
-            <a href=" " onClick={() => history.push("/TransmuteAI/deepak")}>
+            <a
+              href=" "
+              onClick={() => history.push("/TransmuteAI/publications/deepak")}
+            >
               Deepak K. Gupta
             </a>
           </h6>
