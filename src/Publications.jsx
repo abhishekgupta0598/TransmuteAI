@@ -22,7 +22,7 @@ export default function Publications() {
         </div>
       </div>
       <div className={classes.left}>
-        <div>
+        <div className={classes.margin}>
           <h5>
             <a
               className={classes.heading}
@@ -40,7 +40,7 @@ export default function Publications() {
                 href=" "
                 onClick={() => history.push("/TransmuteAI/publications/arnav")}
               >
-                Arnav Chavan ,
+                Arnav Chavan,
               </a>
             </h6>
             <h6 className={classes.none}>
@@ -48,7 +48,7 @@ export default function Publications() {
                 href=" "
                 onClick={() => history.push("/TransmuteAI/publications/udbhav")}
               >
-                Udbhav Bamba ,
+                Udbhav Bamba,
               </a>
             </h6>
             <h6 className={classes.none}>
@@ -56,7 +56,7 @@ export default function Publications() {
                 href=" "
                 onClick={() => history.push("/TransmuteAI/publications/rishab")}
               >
-                Rishabh Tiwari ,
+                Rishabh Tiwari,
               </a>
             </h6>
             <h6 className={classes.none}>
@@ -111,7 +111,7 @@ export default function Publications() {
             </ButtonGroup>
           </div>
         </div>
-        <div>
+        <div className={classes.margin}>
           <h5>
             <a
               className={classes.heading}
@@ -293,13 +293,16 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     padding: "1%",
   },
+  margin: {
+    paddingBottom: "3%",
+  },
   header: {
     fontFamily: "Serif",
-    color: "#1ca9c9",
+    color: "#96ded1",
     fontSize: "32px",
     [theme.breakpoints.up("sm")]: {
       fontSize: "48px",
-      padding: "1%",
+      color: "#002147",
       // boxShadow: "0 0 6px #9E9E9E",
     },
   },
@@ -309,6 +312,7 @@ const useStyles = makeStyles((theme) => ({
       display: "block",
       width: "40%",
       float: "left",
+      padding: "1%",
     },
   },
   left: {
@@ -316,17 +320,21 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       width: "60%",
       float: "left",
-      paddingTop: "2%",
+      paddingTop: "1%",
     },
   },
   heading: {
     fontFamily: "Serif",
-    color: "#1ca9c9",
+    color: "#0abab5",
+    [theme.breakpoints.up("md")]: {
+      fontFamily: "Serif",
+      color: "#002147",
+    },
     // boxShadow: "0 0 6px #9E9E9E",
   },
   width: {
     width: "100%",
-    float: "none",
+    // float: "none",
     paddingBottom: "1%",
   },
   none: {
@@ -340,10 +348,11 @@ const useStyles = makeStyles((theme) => ({
   },
   inter: {
     width: "100%",
-    marginTop: "5%",
+    clear: "left",
     // boxShadow: "0 0 6px #9E9E9E",
     [theme.breakpoints.up("md")]: {
       marginTop: "1%",
+      clear: "left",
       width: "100%",
     },
   },
@@ -352,9 +361,6 @@ const useStyles = makeStyles((theme) => ({
   },
   link: {
     color: "black",
-  },
-  bottommargin: {
-    marginBottom: "3%",
   },
   paragraph: {
     fontFamily: "Sans-serif",

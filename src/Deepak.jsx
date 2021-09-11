@@ -6,26 +6,25 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import SchoolIcon from "@material-ui/icons/School";
 
 const useStyles = makeStyles((theme) => ({
-  column: {
-    float: "left",
-    [theme.breakpoints.up("md")]: {
-      float: "left",
-    },
-  },
   float: {
     float: "none",
     width: "100%",
     [theme.breakpoints.up("md")]: {
       float: "left",
-      width: "55%",
+      width: "65%",
     },
   },
   root: {
     width: "100%",
-    //   boxShadow : '0 0 6px #9E9E9E'
+    padding: "2%",
+    [theme.breakpoints.up("md")]: {
+      width: "100%",
+      padding: "2%",
+    },
   },
   heading: {
-    padding: "1%",
+    fontFamily: "Sans-Serif",
+    color: "#002147",
     [theme.breakpoints.up("md")]: {
       fontFamily: "Sans-Serif",
       color: "#002147",
@@ -33,25 +32,25 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading0: {
-    padding: "1%",
-    marginLeft: "9%",
+    fontFamily: "Sans-Serif",
+    color: "#002147",
+    paddingLeft: "8%",
+    width: "100%",
     [theme.breakpoints.up("md")]: {
       fontFamily: "Sans-Serif",
-      marginLeft: "0%",
+      paddingLeft: "0%",
       color: "#002147",
-      padding: "0%",
+      // boxShadow: "0 0 6px #9E9E9E",
     },
   },
   paragraph: {
     fontFamily: "Sans-serif",
     width: "100%",
-    padding: "1%",
     fontSize: "16px",
     [theme.breakpoints.up("md")]: {
       fontFamily: "Sans-serif",
       width: "100%",
       fontSize: "18px",
-      padding: "0%",
     },
   },
   left: {
@@ -59,45 +58,45 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     [theme.breakpoints.up("md")]: {
       float: "left",
-      width: "30%",
-      marginLeft: "10%",
+      width: "35%",
+      padding: "3%",
       paddingBottom: "18%",
-      paddingTop: "2%",
     },
-    // boxShadow : '0 0 6px #9E9E9E'
   },
   div: {
     float: "none",
+    width: "100%",
     [theme.breakpoints.up("md")]: {
       float: "left",
-      width: "25%",
+      width: "30%",
     },
   },
   transmute: {
     width: "100%",
     color: "#002147",
-    marginLeft: "32%",
+    marginLeft: "28%",
     [theme.breakpoints.up("md")]: {
       width: "70%",
-      marginLeft: "25%",
+      marginLeft: "28%",
       color: "#002147",
     },
   },
   icons: {
     width: "100%",
-    marginLeft: "25%",
+    marginLeft: "20%",
     [theme.breakpoints.up("md")]: {
       width: "70%",
-      marginLeft: "18%",
+      marginLeft: "20%",
       marginTop: "5%",
     },
   },
   image: {
     width: "100%",
-    marginLeft: "25%",
+    paddingLeft: "22%",
     [theme.breakpoints.up("md")]: {
-      width: "70%",
-      marginLeft: "18%",
+      width: "100%",
+      paddingLeft: "19%",
+      paddingTop: "5%",
     },
   },
   iconsColor: {

@@ -6,25 +6,22 @@ import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   column: {
-    float: "none",
-    // padding: "1%",
     fontFamily: "Sans-serif",
-    color: "#002147",
+    color: "#1ca9c9",
+    float: "none",
     [theme.breakpoints.up("sm")]: {
       float: "left",
-      padding: "1%",
+      fontFamily: "Sans-serif",
+      color: "#002147",
+      paddingRight: "3%",
     },
   },
   root: {
-    width: "96%",
-    paddingTop: "1%",
-    marginLeft: "2%",
-    marginRight: "2%",
+    width: "100%",
+    padding: "2%",
     [theme.breakpoints.up("md")]: {
-      width: "76%",
-      paddingTop: "1%",
-      marginLeft: "12%",
-      marginRight: "12%",
+      width: "85%",
+      marginLeft: "7%",
     },
   },
   paragraph: {
@@ -36,25 +33,36 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     fontFamily: "Serif",
-    color: "#002147",
+    color: "#1ca9c9",
+    fontSize: "30px",
+    [theme.breakpoints.up("sm")]: {
+      fontSize: "42px",
+      fontFamily: "Serif",
+      color: "#002147",
+    },
+  },
+  abstract: {
+    fontFamily: "Serif",
+    color: "#1ca9c9",
+    fontSize: "28px",
+    clear: "left",
+    paddingTop: "2%",
+    [theme.breakpoints.up("sm")]: {
+      fontSize: "36px",
+      fontFamily: "Serif",
+      color: "#002147",
+      clear: "left",
+    },
   },
   link: {
     color: "#002147",
   },
   width: {
     width: "100%",
-    marginBottom: "22%",
+    marginTop: "-12px",
     [theme.breakpoints.up("sm")]: {
-      width: "90%",
-      marginBottom: "8%",
-    },
-  },
-  widthup: {
-    width: "100%",
-    marginTop: "22%",
-    [theme.breakpoints.up("sm")]: {
-      width: "90%",
-      marginTop: "8%",
+      width: "100%",
+      marginTop: "-12px",
     },
   },
   float: {
@@ -99,10 +107,8 @@ export default function Generating() {
             </a>
           </h6>
         </div>
-        <div className={classes.widthup}>
-          <h4 className={classes.heading}>
-            <b>Abstract</b>
-          </h4>
+        <div>
+          <h4 className={classes.abstract}>Abstract</h4>
           <p className={classes.paragraph}>
             Recent developments related to generative models have made it
             possible to generate diverse high-fidelity images. In particular,
