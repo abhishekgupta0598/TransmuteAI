@@ -130,7 +130,7 @@ export default function Publications() {
                 href=" "
                 onClick={() => history.push("/TransmuteAI/publications/bryan")}
               >
-                Bryan Cardenas ,
+                Bryan Cardenas,
               </a>
             </h6>
             <h6 className={classes.none}>
@@ -140,7 +140,7 @@ export default function Publications() {
                   history.push("/TransmuteAI/publications/deepanshu")
                 }
               >
-                devanshu Arya ,
+                devanshu Arya,
               </a>
             </h6>
             <h6 className={classes.none}>
@@ -212,7 +212,7 @@ export default function Publications() {
                 href=" "
                 onClick={() => history.push("/TransmuteAI/publications/rishab")}
               >
-                Rishabh Tiwari ,
+                Rishabh Tiwari,
               </a>
             </h6>
             <h6 className={classes.none}>
@@ -220,7 +220,7 @@ export default function Publications() {
                 href=" "
                 onClick={() => history.push("/TransmuteAI/publications/udbhav")}
               >
-                Udbhav Bamba ,
+                Udbhav Bamba,
               </a>
             </h6>
             <h6 className={classes.none}>
@@ -228,7 +228,7 @@ export default function Publications() {
                 href=" "
                 onClick={() => history.push("/TransmuteAI/publications/arnav")}
               >
-                Arnav Chavan ,
+                Arnav Chavan,
               </a>
             </h6>
             <h6 className={classes.none}>

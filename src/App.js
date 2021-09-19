@@ -13,6 +13,8 @@ import Bryan from "./Bryan";
 import Deepanshu from "./Deepanshu";
 import Udbhav from "./Udbhav";
 import Rishab from "./Rishab";
+import Courses from "./Courses";
+import Members from "./Members";
 
 export default class App extends Component {
   render() {
@@ -23,6 +25,8 @@ export default class App extends Component {
           <Switch>
             <Route path="/TransmuteAI" exact component={Home} />
             <Route path="/TransmuteAI/joinus" component={JoinUs} />
+            <Route path="/TransmuteAI/courses" component={Courses} />
+            <Route path="/TransmuteAI/members" component={Members} />
             <Route path="/TransmuteAI/publications/rishab" component={Rishab} />
             <Route path="/TransmuteAI/publications/udbhav" component={Udbhav} />
             <Route

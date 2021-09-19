@@ -11,13 +11,11 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useHistory } from "react-router-dom";
 import List from "@material-ui/core/List";
-// import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import clsx from "clsx";
 import Drawer from "@material-ui/core/Drawer";
-// import PageviewTwoToneIcon from "@material-ui/icons/PageviewTwoTone";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,7 +23,6 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     marginRight: theme.spacing(1),
-    // fontSize: "40px",
   },
   menuIcon: {
     fontSize: "40px",
@@ -106,12 +103,17 @@ export default function Nav() {
         <ListItem>
           <ListItemIcon></ListItemIcon>
           <ListItemText>
-            <div className={classes.sideBarFont}>Members</div>
+            <div
+              className={classes.sideBarFont}
+              onClick={() => history.push("/TransmuteAI/members")}
+            >
+              Members
+            </div>
           </ListItemText>
         </ListItem>
         <ListItem>
           <ListItemIcon></ListItemIcon>
-          <ListItemText>
+          <ListItemText onClick={() => history.push("/TransmuteAI/courses")}>
             <div className={classes.sideBarFont}>Courses</div>
           </ListItemText>
         </ListItem>
@@ -149,8 +151,18 @@ export default function Nav() {
                 Home
               </Button>
               <Button color="inherit">Projects</Button>
-              <Button color="inherit">Members</Button>
-              <Button color="inherit">Courses</Button>
+              <Button
+                color="inherit"
+                onClick={() => history.push("/TransmuteAI/members")}
+              >
+                Members
+              </Button>
+              <Button
+                color="inherit"
+                onClick={() => history.push("/TransmuteAI/courses")}
+              >
+                Courses
+              </Button>
               <Button
                 color="inherit"
                 onClick={() => history.push("/TransmuteAI/publications")}
