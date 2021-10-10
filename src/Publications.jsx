@@ -196,12 +196,10 @@ export default function Publications() {
           </div>
         </div>
         <div>
-          <h5>
-            <a
-              className={classes.heading}
-              onClick={() => history.push("/TransmuteAI/publications/chipnets")}
-              href=" "
-            >
+          <h5
+            onClick={() => history.push("/TransmuteAI/publications/chipnets")}
+          >
+            <a href=" " className={classes.heading}>
               ChipNet: Budget-Aware Pruning with Heaviside Continuous
               Approximations
             </a>
