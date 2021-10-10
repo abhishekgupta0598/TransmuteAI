@@ -28,10 +28,15 @@ export default class App extends Component {
         <Router>
           <Nav />
           <Switch>
-            <Route path="/TransmuteAI" exact component={Home} />
+            <Route path="/TransmuteAI/" exact component={Home} />
             <Route path="/TransmuteAI/joinus" component={JoinUs} />
             <Route path="/TransmuteAI/courses" component={Courses} />
-            <Route path="/TransmuteAI/members" exact component={Members} />
+            <Route path="/TransmuteAI/members/" exact component={Members} />
+            <Route
+              path="/TransmuteAI/publications/"
+              exact
+              component={Publications}
+            />
             <Route path="/TransmuteAI/publications/rishab" component={Rishab} />
             <Route path="/TransmuteAI/publications/udbhav" component={Udbhav} />
             <Route
@@ -52,11 +57,6 @@ export default class App extends Component {
             <Route
               path="/TransmuteAI/publications/generating"
               component={Generating}
-            />
-            <Route
-              path="/TransmuteAI/publications"
-              exact
-              component={Publications}
             />
             <Route path="/TransmuteAI/members/chetan" component={Chetan} />
             <Route path="/TransmuteAI/members/samee" component={Samee} />
