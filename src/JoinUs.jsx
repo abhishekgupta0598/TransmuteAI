@@ -14,16 +14,16 @@ const useStyles = makeStyles((theme) => ({
   heading: {
     fontFamily: "Sans-serif",
     color: "#1ca9c9",
-    fontSize: "30px",
+    fontSize: "32px",
     [theme.breakpoints.up("sm")]: {
       fontFamily: "Sans-serif",
       color: "#002147",
-      fontSize: "42px",
+      fontSize: "48px",
     },
   },
   paragraph: {
     fontFamily: "Sans-serif",
-    fontSize: "20px",
+    fontSize: "18px",
   },
   student: {
     fontFamily: "Sans-serif",
@@ -45,7 +45,7 @@ export default function JoinUs() {
     <div className={classes.root}>
       <div>
         <h5 className={classes.heading}>
-          <b>Do you have what it takes to be a Transmuter?</b>
+          Do you have what it takes to be a Transmuter?
         </h5>
       </div>
       <div>

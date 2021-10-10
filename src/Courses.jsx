@@ -22,10 +22,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   inside: {
-    fontSize: "12px",
+    fontSize: "16px",
     color: "#1ca9c9",
     [theme.breakpoints.up("sm")]: {
-      fontSize: "16px",
+      fontSize: "18px",
       color: "#1ca9c9",
     },
   },
@@ -38,11 +38,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   label2: {
-    fontSize: "14px",
-    // color: "#0abab5",
+    fontSize: "18px",
     [theme.breakpoints.up("sm")]: {
-      fontSize: "16px",
-      //   color: "#0abab5",
+      fontSize: "22px",
     },
   },
   tree: {

@@ -111,7 +111,7 @@ export default function Arnav() {
     <div className={classes.root}>
       <div className={classes.left}>
         <div className={classes.image}>
-          <img src="./Devanshu_Arya.jpeg" alt="Devanshu" />
+          <img src="../Devanshu_Arya.jpeg" alt="Devanshu" />
           <h5 className={classes.heading}>
             <b>Devanshu Arya</b>
           </h5>

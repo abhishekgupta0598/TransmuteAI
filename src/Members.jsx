@@ -2,11 +2,14 @@ import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import { makeStyles } from "@material-ui/core/styles";
 import { useHistory } from "react-router-dom";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import EmailIcon from "@material-ui/icons/Email";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
-    padding: "3%",
+    padding: "1%",
     [theme.breakpoints.up("md")]: {
       width: "78%",
       marginLeft: "10%",
@@ -31,20 +34,17 @@ const useStyles = makeStyles((theme) => ({
     float: "none",
     marginBottom: "5%",
     boxShadow: "0 0 12px #9E9E9E",
-    borderRadius: "5px",
-    cursor: "pointer",
     [theme.breakpoints.up("md")]: {
-      width: "24%",
-      marginBottom: "0%",
+      width: "30%",
+      marginBottom: "1%",
       boxShadow: "0 0 12px #9E9E9E",
-      borderRadius: "5px",
-      marginRight: "1%",
+      marginRight: "2%",
       paddingLeft: "1%",
       paddingRight: "1%",
       paddingTop: "1%",
       paddingBottom: "0%",
       marginTop: "1%",
-      height: "auto",
+      height: "340px",
       float: "left",
     },
   },
@@ -61,11 +61,9 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "auto",
     [theme.breakpoints.up("md")]: {
-      width: "100%",
-      // marginLeft: "8%",
+      width: "94%",
       boxShadow: "0 0 12px #9E9E9E",
-      borderRadius: "5px",
-      height: "280px",
+      height: "330px",
       padding: "1%",
     },
   },
@@ -75,10 +73,9 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "5px",
     cursor: "pointer",
     [theme.breakpoints.up("md")]: {
-      width: "25%",
-      // padding: "1%",
+      width: "26%",
       marginRight: "7%",
-      height: "250px",
+      height: "270px",
       boxShadow: "0 0 12px #9E9E9E",
       float: "left",
     },
@@ -88,6 +85,16 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       width: "100%",
     },
+  },
+  iconsColor: {
+    color: "#002147",
+    fontSize: "30px",
+    float: "left",
+  },
+  iconsForDirector: {
+    color: "#002147",
+    fontSize: "36px",
+    float: "left",
   },
 }));
 
@@ -105,9 +112,36 @@ export default function Home() {
           <img
             src="./Deepak_Gupta.jpeg"
             alt="director"
-            height="250"
-            width="240"
+            height="270"
+            width="262"
           />
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon
+              fontSize="large"
+              className={classes.iconsForDirector}
+            />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="large" className={classes.iconsForDirector} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="large" className={classes.iconsForDirector} />
+          </a>
         </div>
         <p className={classes.paragraph}>
           Hey there! I am currently working as a Research Scientist at Transmute
@@ -119,119 +153,357 @@ export default function Home() {
       </div>
       <div className={classes.container}>
         <h4 className={classes.heading}>Teams</h4>
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/publications/arnav")}
-        >
-          <img src="./logo192.png" alt="director" />
-          <h5>Arnav Chavan</h5>
+        <div className={classes.images}>
+          <img
+            src="./logo192.png"
+            alt="director"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/arnav")}
+          />
+          <h6>Arnav Chavan</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
-
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/publications/udbhav")}
-        >
+        <div className={classes.images}>
           <img
             src="./Udbhav Bamba.jpg"
             alt="director"
-            height="192"
-            width="210"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/udbhav")}
           />
-          <h5>Udbhav Bamba</h5>
+          <h6>Udbhav Bamba</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
-
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/publications/rishab")}
-        >
+        <div className={classes.images}>
           <img
             src="./Rishabh_Tiwari.jpeg"
             alt="director"
-            height="192"
-            width="210"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/rishab")}
           />
-          <h5>Rishab Tiwari</h5>
+          <h6>Rishabh Tiwari</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
-
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/publications/bryan")}
-        >
-          <img src="./logo192.png" alt="director" />
-          <h5>Bryan Cardenas</h5>
+        <div className={classes.images}>
+          <img
+            src="./logo192.png"
+            alt="director"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/bryan")}
+          />
+          <h6>Rishabh Tiwari</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
-
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
-        >
+        <div className={classes.images}>
           <img
             src="./Devanshu_Arya.jpeg"
             alt="director"
-            height="192"
-            width="210"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
           />
-          <h5>Devanshu Arya</h5>
+          <h6>Devanshu Arya</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
-
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/members/chetan")}
-        >
+        <div className={classes.images}>
           <img
             src="./Chetan Pandey.jpg"
             alt="director"
-            height="192"
-            width="210"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/chetan")}
           />
-          <h5>Chetan Pandey</h5>
+          <h6>Chetan Pandey</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
 
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/members/samee")}
-        >
+        <div className={classes.images}>
           <img
             src="./Samee Ur Rehman.jpeg"
             alt="director"
-            height="192"
-            width="210"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/samee")}
           />
-          <h5>Samee Ur Rahman</h5>
+          <h6>Samee Ur Rehman</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
 
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/members/saksham")}
-        >
-          <img src="./logo192.png" alt="director" height="192" width="210" />
-          <h5>Saksham Aggarwal</h5>
+        <div className={classes.images}>
+          <img
+            src="./logo192.png"
+            alt="director"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/saksham")}
+          />
+          <h6>Saksham Aggarwal</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
-
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/members/silvia")}
-        >
+        <div className={classes.images}>
           <img
             src="./Silvia Sultana.jpg"
             alt="director"
-            height="192"
-            width="210"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/silvia")}
           />
-          <h5>Silvia Sultana</h5>
+          <h6>Silvia Sultana</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
-
-        <div
-          className={classes.images}
-          onClick={() => history.push("/TransmuteAI/members/taresh")}
-        >
+        <div className={classes.images}>
           <img
             src="./Taresh Rajput.jpg"
             alt="director"
-            height="192"
-            width="210"
+            height="250"
+            width="285"
+            style={{ cursor: "pointer" }}
+            onClick={() => history.push("/TransmuteAI/publications/taresh")}
           />
-          <h5>Taresh Rajput</h5>
+          <h6>Taresh Rajput</h6>
+          <a
+            href="https://www.linkedin.com/in/bart-van-erp/"
+            alt="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="ubamba98@gmail.com"
+            target="_blank"
+            alt="email address"
+            rel="noreferrer"
+          >
+            <EmailIcon fontSize="small" className={classes.iconsColor} />
+          </a>
+          <a
+            href="https://github.com/bartvanerp/"
+            alt="git hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon fontSize="small" className={classes.iconsColor} />
+          </a>
         </div>
       </div>
     </div>

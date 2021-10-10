@@ -263,7 +263,7 @@ const useStyles = makeStyles((theme) => ({
   },
   header: {
     fontFamily: "Sans-serif",
-    color: "#96ded1",
+    color: "#1ca9c9",
     fontSize: "32px",
     [theme.breakpoints.up("sm")]: {
       fontSize: "48px",
@@ -305,11 +305,11 @@ const useStyles = makeStyles((theme) => ({
   },
   none: {
     float: "left",
-    marginTop: "-9px",
-    fontSize: "14px",
+    marginTop: "-5px",
+    fontSize: "16px",
     cursor: "pointer",
     [theme.breakpoints.up("md")]: {
-      fontSize: "16px",
+      fontSize: "18px",
       marginTop: "-11px",
     },
   },
@@ -331,9 +331,9 @@ const useStyles = makeStyles((theme) => ({
   },
   paragraph: {
     fontFamily: "Sans-serif",
-    fontSize: "14px",
+    fontSize: "16px",
     [theme.breakpoints.up("md")]: {
-      fontSize: "16px",
+      fontSize: "18px",
     },
   },
 }));
