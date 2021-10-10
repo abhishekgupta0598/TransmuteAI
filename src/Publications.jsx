@@ -199,10 +199,10 @@ export default function Publications() {
           <h5
             onClick={() => history.push("/TransmuteAI/publications/chipnets")}
           >
-            <a href=" " className={classes.heading}>
-              ChipNet: Budget-Aware Pruning with Heaviside Continuous
-              Approximations
-            </a>
+            {/* <a className={classes.heading}> */}
+            ChipNet: Budget-Aware Pruning with Heaviside Continuous
+            Approximations
+            {/* </a> */}
           </h5>
           <div className={classes.width}>
             <h6 className={classes.none}>
