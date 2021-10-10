@@ -23,49 +23,36 @@ export default function Publications() {
       </div>
       <div className={classes.left}>
         <div className={classes.margin}>
-          <h5>
-            <a
-              className={classes.heading}
-              href=" "
-              onClick={() =>
-                history.push("/TransmuteAI/publications/rescaling")
-              }
-            >
-              Rescaling CNN through Learnable Repetition of Network Parameters
-            </a>
+          <h5
+            className={classes.heading}
+            onClick={() => history.push("/TransmuteAI/publications/rescaling")}
+          >
+            Rescaling CNN through Learnable Repetition of Network Parameters
           </h5>
           <div className={classes.width}>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/arnav")}
-              >
-                Arnav Chavan,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/arnav")}
+            >
+              Arnav Chavan,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/udbhav")}
-              >
-                Udbhav Bamba,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+            >
+              Udbhav Bamba,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/rishab")}
-              >
-                Rishabh Tiwari,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/rishab")}
+            >
+              Rishabh Tiwari,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/deepak")}
-              >
-                Deepak K. Gupta
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/deepak")}
+            >
+              Deepak K. Gupta
             </h6>
           </div>
           <div className={classes.inter}>
@@ -112,44 +99,33 @@ export default function Publications() {
           </div>
         </div>
         <div className={classes.margin}>
-          <h5>
-            <a
-              className={classes.heading}
-              onClick={() =>
-                history.push("/TransmuteAI/publications/generating")
-              }
-              href=" "
-            >
-              Generating Annotated High-Fidelity Images containing Multiple
-              Coherent Objects
-            </a>
+          <h5
+            onClick={() => history.push("/TransmuteAI/publications/generating")}
+            className={classes.heading}
+          >
+            Generating Annotated High-Fidelity Images containing Multiple
+            Coherent Objects
           </h5>
           <div className={classes.width}>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/bryan")}
-              >
-                Bryan Cardenas,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/bryan")}
+            >
+              Bryan Cardenas,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() =>
-                  history.push("/TransmuteAI/publications/deepanshu")
-                }
-              >
-                devanshu Arya,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() =>
+                history.push("/TransmuteAI/publications/deepanshu")
+              }
+            >
+              devanshu Arya,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/deepak")}
-              >
-                Deepak Kumar Gupta.
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/deepak")}
+            >
+              Deepak Kumar Gupta.
             </h6>
           </div>
           <div className={classes.inter}>
@@ -198,42 +174,35 @@ export default function Publications() {
         <div>
           <h5
             onClick={() => history.push("/TransmuteAI/publications/chipnets")}
+            className={classes.heading}
           >
             ChipNet: Budget-Aware Pruning with Heaviside Continuous
             Approximations
           </h5>
           <div className={classes.width}>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/rishab")}
-              >
-                Rishabh Tiwari,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/rishab")}
+            >
+              Rishabh Tiwari,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/udbhav")}
-              >
-                Udbhav Bamba,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+            >
+              Udbhav Bamba,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/arnav")}
-              >
-                Arnav Chavan,
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/arnav")}
+            >
+              Arnav Chavan,
             </h6>
-            <h6 className={classes.none}>
-              <a
-                href=" "
-                onClick={() => history.push("/TransmuteAI/publications/deepak")}
-              >
-                Deepak K. Gupta
-              </a>
+            <h6
+              className={classes.none}
+              onClick={() => history.push("/TransmuteAI/publications/deepak")}
+            >
+              Deepak K. Gupta
             </h6>
           </div>
           <div className={classes.inter}>
@@ -322,6 +291,7 @@ const useStyles = makeStyles((theme) => ({
   heading: {
     fontFamily: "Sans-serif",
     color: "#0abab5",
+    cursor: "pointer",
     [theme.breakpoints.up("md")]: {
       fontFamily: "Sans-serif",
       color: "#002147",
@@ -337,6 +307,7 @@ const useStyles = makeStyles((theme) => ({
     float: "left",
     marginTop: "-9px",
     fontSize: "14px",
+    cursor: "pointer",
     [theme.breakpoints.up("md")]: {
       fontSize: "16px",
       marginTop: "-11px",

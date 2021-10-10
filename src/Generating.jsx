@@ -67,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
   },
   float: {
     float: "left",
+    cursor: "pointer",
   },
 }));
 export default function Generating() {
@@ -80,31 +81,23 @@ export default function Generating() {
           Objects
         </h4>
         <div className={classes.width}>
-          <h6 className={classes.float}>
-            <a
-              href=" "
-              onClick={() => history.push("/TransmuteAI/publications/bryan")}
-            >
-              Bryan Cardenas ,
-            </a>
+          <h6
+            className={classes.float}
+            onClick={() => history.push("/TransmuteAI/publications/bryan")}
+          >
+            Bryan Cardenas ,
           </h6>
-          <h6 className={classes.float}>
-            <a
-              href=" "
-              onClick={() =>
-                history.push("/TransmuteAI/publications/deepanshu")
-              }
-            >
-              Devanshu Arya ,
-            </a>
+          <h6
+            className={classes.float}
+            onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
+          >
+            Devanshu Arya ,
           </h6>
-          <h6 className={classes.float}>
-            <a
-              href=" "
-              onClick={() => history.push("/TransmuteAI/publications/deepak")}
-            >
-              Deepak K. Gupta
-            </a>
+          <h6
+            className={classes.float}
+            onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
+          >
+            Deepak K. Gupta
           </h6>
         </div>
         <div>

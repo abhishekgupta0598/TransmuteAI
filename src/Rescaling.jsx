@@ -67,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
   },
   float: {
     float: "left",
+    cursor: "pointer",
   },
 }));
 export default function Rescaling() {
@@ -78,37 +79,29 @@ export default function Rescaling() {
         Rescaling CNN through Learnable Repetition of Network Parameters
       </h3>
       <div className={classes.width}>
-        <h6 className={classes.float}>
-          <a
-            href=" "
-            onClick={() => history.push("/TransmuteAI/publications/rishab")}
-          >
-            Rishabh Tiwari ,
-          </a>
+        <h6
+          className={classes.float}
+          onClick={() => history.push("/TransmuteAI/publications/rishab")}
+        >
+          Rishabh Tiwari,
         </h6>
-        <h6 className={classes.float}>
-          <a
-            href=" "
-            onClick={() => history.push("/TransmuteAI/publications/udbhav")}
-          >
-            Udbhav Bamba ,
-          </a>
+        <h6
+          className={classes.float}
+          onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+        >
+          Udbhav Bamba,
         </h6>
-        <h6 className={classes.float}>
-          <a
-            href=" "
-            onClick={() => history.push("/TransmuteAI/publications/arnav")}
-          >
-            Arnav Chavan ,
-          </a>
+        <h6
+          className={classes.float}
+          onClick={() => history.push("/TransmuteAI/publications/arnav")}
+        >
+          Arnav Chavan,
         </h6>
-        <h6 className={classes.float}>
-          <a
-            href=" "
-            onClick={() => history.push("/TransmuteAI/publications/deepak")}
-          >
-            Deepak K. Gupta
-          </a>
+        <h6
+          className={classes.float}
+          onClick={() => history.push("/TransmuteAI/publications/deepak")}
+        >
+          Deepak K. Gupta
         </h6>
       </div>
       <div>

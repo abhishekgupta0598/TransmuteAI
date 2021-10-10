@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "5%",
     boxShadow: "0 0 12px #9E9E9E",
     borderRadius: "5px",
+    cursor: "pointer",
     [theme.breakpoints.up("md")]: {
       width: "24%",
       marginBottom: "0%",
@@ -72,6 +73,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     boxShadow: "0 0 12px #9E9E9E",
     borderRadius: "5px",
+    cursor: "pointer",
     [theme.breakpoints.up("md")]: {
       width: "25%",
       // padding: "1%",
@@ -96,19 +98,17 @@ export default function Home() {
     <div className={classes.root}>
       <h4 className={classes.heading}>Director</h4>
       <div className={classes.director}>
-        <a href=" ">
-          <div
-            className={classes.img}
-            onClick={() => history.push("/TransmuteAI/publications/deepak")}
-          >
-            <img
-              src="./Deepak_Gupta.jpeg"
-              alt="director"
-              height="250"
-              width="240"
-            />
-          </div>
-        </a>
+        <div
+          className={classes.img}
+          onClick={() => history.push("/TransmuteAI/publications/deepak")}
+        >
+          <img
+            src="./Deepak_Gupta.jpeg"
+            alt="director"
+            height="250"
+            width="240"
+          />
+        </div>
         <p className={classes.paragraph}>
           Hey there! I am currently working as a Research Scientist at Transmute
           AI and am involved in mentoring several students on cutting-edge AI
@@ -119,131 +119,120 @@ export default function Home() {
       </div>
       <div className={classes.container}>
         <h4 className={classes.heading}>Teams</h4>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/publications/arnav")}
-          >
-            <img src="./logo192.png" alt="director" />
-            <h5>Arnav Chavan</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/publications/udbhav")}
-          >
-            <img
-              src="./Udbhav Bamba.jpg"
-              alt="director"
-              height="192"
-              width="210"
-            />
-            <h5>Udbhav Bamba</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/publications/rishab")}
-          >
-            <img
-              src="./Rishabh_Tiwari.jpeg"
-              alt="director"
-              height="192"
-              width="210"
-            />
-            <h5>Rishab Tiwari</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/publications/bryan")}
-          >
-            <img src="./logo192.png" alt="director" />
-            <h5>Bryan Cardenas</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
-          >
-            <img
-              src="./Devanshu_Arya.jpeg"
-              alt="director"
-              height="192"
-              width="210"
-            />
-            <h5>Devanshu Arya</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/members/chetan")}
-          >
-            <img
-              src="./Chetan Pandey.jpg"
-              alt="director"
-              height="192"
-              width="210"
-            />
-            <h5>Chetan Pandey</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/members/samee")}
-          >
-            <img
-              src="./Samee Ur Rehman.jpeg"
-              alt="director"
-              height="192"
-              width="210"
-            />
-            <h5>Samee Ur Rahman</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/members/saksham")}
-          >
-            <img src="./logo192.png" alt="director" height="192" width="210" />
-            <h5>Saksham Aggarwal</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/members/silvia")}
-          >
-            <img
-              src="./Silvia Sultana.jpg"
-              alt="director"
-              height="192"
-              width="210"
-            />
-            <h5>Silvia Sultana</h5>
-          </div>
-        </a>
-        <a href=" ">
-          <div
-            className={classes.images}
-            onClick={() => history.push("/TransmuteAI/members/taresh")}
-          >
-            <img
-              src="./Taresh Rajput.jpg"
-              alt="director"
-              height="192"
-              width="210"
-            />
-            <h5>Taresh Rajput</h5>
-          </div>
-        </a>
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/publications/arnav")}
+        >
+          <img src="./logo192.png" alt="director" />
+          <h5>Arnav Chavan</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+        >
+          <img
+            src="./Udbhav Bamba.jpg"
+            alt="director"
+            height="192"
+            width="210"
+          />
+          <h5>Udbhav Bamba</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/publications/rishab")}
+        >
+          <img
+            src="./Rishabh_Tiwari.jpeg"
+            alt="director"
+            height="192"
+            width="210"
+          />
+          <h5>Rishab Tiwari</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/publications/bryan")}
+        >
+          <img src="./logo192.png" alt="director" />
+          <h5>Bryan Cardenas</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
+        >
+          <img
+            src="./Devanshu_Arya.jpeg"
+            alt="director"
+            height="192"
+            width="210"
+          />
+          <h5>Devanshu Arya</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/members/chetan")}
+        >
+          <img
+            src="./Chetan Pandey.jpg"
+            alt="director"
+            height="192"
+            width="210"
+          />
+          <h5>Chetan Pandey</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/members/samee")}
+        >
+          <img
+            src="./Samee Ur Rehman.jpeg"
+            alt="director"
+            height="192"
+            width="210"
+          />
+          <h5>Samee Ur Rahman</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/members/saksham")}
+        >
+          <img src="./logo192.png" alt="director" height="192" width="210" />
+          <h5>Saksham Aggarwal</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/members/silvia")}
+        >
+          <img
+            src="./Silvia Sultana.jpg"
+            alt="director"
+            height="192"
+            width="210"
+          />
+          <h5>Silvia Sultana</h5>
+        </div>
+
+        <div
+          className={classes.images}
+          onClick={() => history.push("/TransmuteAI/members/taresh")}
+        >
+          <img
+            src="./Taresh Rajput.jpg"
+            alt="director"
+            height="192"
+            width="210"
+          />
+          <h5>Taresh Rajput</h5>
+        </div>
       </div>
     </div>
   );

@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     marginRight: "auto",
+    cursor: "pointer",
   },
   youtube: {
     color: "white",
@@ -141,7 +142,13 @@ export default function Nav() {
           <AppBar position="static" className={classes.navbar}>
             <Toolbar>
               <div className={classes.title}>
-                <img src="./logo.png" alt="logo" width="240" height="45" />
+                <img
+                  src="./logo.png"
+                  alt="logo"
+                  width="240"
+                  height="45"
+                  onClick={() => history.push("/TransmuteAI")}
+                />
               </div>
               <Button
                 color="inherit"
@@ -211,7 +218,13 @@ export default function Nav() {
                 </div>
               </IconButton>
               <div className={classes.title}>
-                <img src="./logo.png" alt="logo" width="200" height="30" />
+                <img
+                  src="./logo.png"
+                  alt="logo"
+                  width="200"
+                  height="30"
+                  onClick={() => history.push("/TransmuteAI")}
+                />
               </div>
               <a
                 href="https://www.youtube.com/channel/UCSBllKwExVPNLDrK1Ujexkw"
