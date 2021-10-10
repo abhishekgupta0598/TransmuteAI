@@ -12,21 +12,21 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#1ca9c9",
     fontSize: "30px",
     [theme.breakpoints.up("sm")]: {
-      fontFamily: "Serif",
+      fontFamily: "Sans-serif",
       color: "#002147",
       fontSize: "42px",
     },
   },
   paragraph: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     fontSize: "20px",
   },
   student: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#1ca9c9",
     fontSize: "24px",
     marginBottom: "-25px",

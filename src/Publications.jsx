@@ -297,7 +297,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: "3%",
   },
   header: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#96ded1",
     fontSize: "32px",
     [theme.breakpoints.up("sm")]: {
@@ -324,10 +324,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#0abab5",
     [theme.breakpoints.up("md")]: {
-      fontFamily: "Serif",
+      fontFamily: "Sans-serif",
       color: "#002147",
     },
     // boxShadow: "0 0 6px #9E9E9E",

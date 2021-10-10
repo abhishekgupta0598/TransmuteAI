@@ -1,22 +1,21 @@
 import React from "react";
+import "materialize-css/dist/css/materialize.min.css";
 import { makeStyles } from "@material-ui/core/styles";
 import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
-    paddingLeft: "22%",
-    paddingRight: "22%",
+    padding: "3%",
     [theme.breakpoints.up("md")]: {
-      width: "100%",
-      padding: "0%",
+      width: "78%",
+      marginLeft: "10%",
     },
   },
   heading: {
     fontFamily: "sans-serif",
     width: "40%",
     fontSize: "38px",
-    marginLeft: "20%",
     color: "#002147",
     [theme.breakpoints.up("md")]: {
       fontFamily: "sans-serif",
@@ -28,17 +27,21 @@ const useStyles = makeStyles((theme) => ({
   },
   images: {
     width: "100%",
-    boxShadow: "0 0 12px #9E9E9E",
-    borderRadius: "5px",
     paddingBottom: "3%",
     float: "none",
-    // padding: "2%",
     marginBottom: "5%",
+    boxShadow: "0 0 12px #9E9E9E",
+    borderRadius: "5px",
     [theme.breakpoints.up("md")]: {
-      width: "23%",
+      width: "24%",
       marginBottom: "0%",
-      marginRight: "2%",
-      paddingBottom: "2%",
+      boxShadow: "0 0 12px #9E9E9E",
+      borderRadius: "5px",
+      marginRight: "1%",
+      paddingLeft: "1%",
+      paddingRight: "1%",
+      paddingTop: "1%",
+      paddingBottom: "0%",
       marginTop: "1%",
       height: "auto",
       float: "left",
@@ -49,29 +52,40 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "1%",
     height: "auto",
     [theme.breakpoints.up("md")]: {
-      width: "80%",
-      marginLeft: "8%",
+      width: "100%",
       height: "auto",
     },
   },
   director: {
-    width: "80%",
-    marginLeft: "8%",
-    boxShadow: "0 0 12px #9E9E9E",
-    borderRadius: "5px",
+    width: "100%",
     height: "auto",
-    padding: "4%",
+    [theme.breakpoints.up("md")]: {
+      width: "100%",
+      // marginLeft: "8%",
+      boxShadow: "0 0 12px #9E9E9E",
+      borderRadius: "5px",
+      height: "280px",
+      padding: "1%",
+    },
   },
   img: {
+    width: "100%",
+    boxShadow: "0 0 12px #9E9E9E",
+    borderRadius: "5px",
     [theme.breakpoints.up("md")]: {
-      width: "23%",
-      marginRight: "5%",
-      height: "auto",
+      width: "25%",
+      // padding: "1%",
+      marginRight: "7%",
+      height: "250px",
+      boxShadow: "0 0 12px #9E9E9E",
       float: "left",
     },
   },
   paragraph: {
-    width: "70%",
+    width: "100%",
+    [theme.breakpoints.up("md")]: {
+      width: "100%",
+    },
   },
 }));
 
@@ -82,9 +96,19 @@ export default function Home() {
     <div className={classes.root}>
       <h4 className={classes.heading}>Director</h4>
       <div className={classes.director}>
-        <div className={classes.img} onClick={() => history.push("/deepak")}>
-          <img src="./logo192.png" alt="director" />
-        </div>
+        <a href=" ">
+          <div
+            className={classes.img}
+            onClick={() => history.push("/TransmuteAI/publications/deepak")}
+          >
+            <img
+              src="./Deepak_Gupta.jpeg"
+              alt="director"
+              height="250"
+              width="240"
+            />
+          </div>
+        </a>
         <p className={classes.paragraph}>
           Hey there! I am currently working as a Research Scientist at Transmute
           AI and am involved in mentoring several students on cutting-edge AI
@@ -95,22 +119,131 @@ export default function Home() {
       </div>
       <div className={classes.container}>
         <h4 className={classes.heading}>Teams</h4>
-        <div className={classes.images} onClick={() => history.push("/deepak")}>
-          <img src="./logo192.png" alt="director" />
-          <h5>Deepak k gupta</h5>
-        </div>
-        <div className={classes.images}>
-          <img src="./logo192.png" alt="director" />
-          <h5>Deepak k gupta</h5>
-        </div>
-        <div className={classes.images}>
-          <img src="./logo192.png" alt="director" />
-          <h5>Deepak k gupta</h5>
-        </div>
-        <div className={classes.images}>
-          <img src="./logo192.png" alt="director" />
-          <h5>Deepak k gupta</h5>
-        </div>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/publications/arnav")}
+          >
+            <img src="./logo192.png" alt="director" />
+            <h5>Arnav Chavan</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/publications/udbhav")}
+          >
+            <img
+              src="./Udbhav Bamba.jpg"
+              alt="director"
+              height="192"
+              width="210"
+            />
+            <h5>Udbhav Bamba</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/publications/rishab")}
+          >
+            <img
+              src="./Rishabh_Tiwari.jpeg"
+              alt="director"
+              height="192"
+              width="210"
+            />
+            <h5>Rishab Tiwari</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/publications/bryan")}
+          >
+            <img src="./logo192.png" alt="director" />
+            <h5>Bryan Cardenas</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
+          >
+            <img
+              src="./Devanshu_Arya.jpeg"
+              alt="director"
+              height="192"
+              width="210"
+            />
+            <h5>Devanshu Arya</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/members/chetan")}
+          >
+            <img
+              src="./Chetan Pandey.jpg"
+              alt="director"
+              height="192"
+              width="210"
+            />
+            <h5>Chetan Pandey</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/members/samee")}
+          >
+            <img
+              src="./Samee Ur Rehman.jpeg"
+              alt="director"
+              height="192"
+              width="210"
+            />
+            <h5>Samee Ur Rahman</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/members/saksham")}
+          >
+            <img src="./logo192.png" alt="director" height="192" width="210" />
+            <h5>Saksham Aggarwal</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/members/silvia")}
+          >
+            <img
+              src="./Silvia Sultana.jpg"
+              alt="director"
+              height="192"
+              width="210"
+            />
+            <h5>Silvia Sultana</h5>
+          </div>
+        </a>
+        <a href=" ">
+          <div
+            className={classes.images}
+            onClick={() => history.push("/TransmuteAI/members/taresh")}
+          >
+            <img
+              src="./Taresh Rajput.jpg"
+              alt="director"
+              height="192"
+              width="210"
+            />
+            <h5>Taresh Rajput</h5>
+          </div>
+        </a>
       </div>
     </div>
   );

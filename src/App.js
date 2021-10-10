@@ -15,6 +15,11 @@ import Udbhav from "./Udbhav";
 import Rishab from "./Rishab";
 import Courses from "./Courses";
 import Members from "./Members";
+import Chetan from "./Chetan";
+import Silvia from "./Silvia";
+import Taresh from "./Taresh";
+import Samee from "./Samee";
+import Saksham from "./Saksham";
 
 export default class App extends Component {
   render() {
@@ -26,7 +31,7 @@ export default class App extends Component {
             <Route path="/TransmuteAI" exact component={Home} />
             <Route path="/TransmuteAI/joinus" component={JoinUs} />
             <Route path="/TransmuteAI/courses" component={Courses} />
-            <Route path="/TransmuteAI/members" component={Members} />
+            <Route path="/TransmuteAI/members" exact component={Members} />
             <Route path="/TransmuteAI/publications/rishab" component={Rishab} />
             <Route path="/TransmuteAI/publications/udbhav" component={Udbhav} />
             <Route
@@ -48,7 +53,16 @@ export default class App extends Component {
               path="/TransmuteAI/publications/generating"
               component={Generating}
             />
-            <Route path="/TransmuteAI/publications" component={Publications} />
+            <Route
+              path="/TransmuteAI/publications"
+              exact
+              component={Publications}
+            />
+            <Route path="/TransmuteAI/members/chetan" component={Chetan} />
+            <Route path="/TransmuteAI/members/samee" component={Samee} />
+            <Route path="/TransmuteAI/members/silvia" component={Silvia} />
+            <Route path="/TransmuteAI/members/saksham" component={Saksham} />
+            <Route path="/TransmuteAI/members/taresh" component={Taresh} />
           </Switch>
         </Router>
       </div>

@@ -74,10 +74,10 @@ const useStyles = makeStyles((theme) => ({
   transmute: {
     width: "100%",
     color: "#002147",
-    marginLeft: "17%",
+    marginLeft: "28%",
     [theme.breakpoints.up("md")]: {
       width: "70%",
-      marginLeft: "17%",
+      marginLeft: "28%",
       color: "#002147",
     },
   },
@@ -105,92 +105,104 @@ const useStyles = makeStyles((theme) => ({
     padding: "1%",
   },
 }));
-export default function Arnav() {
+export default function Samee() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
       <div className={classes.left}>
         <div className={classes.image}>
-          <img src="./Udbhav Bamba.jpg" alt="udbhav" height="180" width="180" />
+          <img
+            src="../Samee Ur Rehman.jpeg"
+            alt="Deepak k. gupta"
+            height="180"
+            width="180"
+          />
           <h5 className={classes.heading}>
-            <b>Udbhav Bamba</b>
+            <b>Samee Ur Rahman</b>
           </h5>
         </div>
         <h6 className={classes.heading0}>
-          <b>Student Researcher & Founding Member,</b>
+          <b>AI Researcher & Member, Transmute AI</b>
         </h6>
         <h6 className={classes.transmute}>
-          <b>Kaggle Competition Master</b>
+          <b>Transmute AI</b>
         </h6>
         <div className={classes.icons}>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon fontSize="large" className={classes.iconsColor} />
+            <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.linkedin.com"
             target="_blank"
             alt="email address"
             rel="noreferrer"
           >
-            <EmailIcon fontSize="large" className={classes.iconsColor} />
+            <EmailIcon className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://www.linkedin.com"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
           >
-            <GitHubIcon fontSize="large" className={classes.iconsColor} />
+            <GitHubIcon className={classes.iconsColor} />
           </a>
         </div>
       </div>
       <div className={classes.div}>
-        <h5 className={classes.heading}>
-          <b>Interests</b>
-        </h5>
+        <h5 className={classes.heading}>Interests</h5>
         <ol className={classes.paragraph}>
-          <li>Deep Learning</li>
-          <li>Computer Vision</li>
-          <li>Efficient architecture search</li>
+          <li>Machine Learning</li>
+          <li>Designing robust learning algorithm</li>
         </ol>
       </div>
       <div className={classes.div}>
-        <h5 className={classes.heading}>
-          <b>Education</b>
-        </h5>
+        <h5 className={classes.heading}>Education</h5>
         <ul className={classes.paragraph}>
           <li>
             <SchoolIcon className={classes.column} />
-            Integrated Master of Technology in Mathematics and Computing,
-            2018-2023
+            Phd in Robust Optimization for Computationally Expensive Systems,
+            2011-2015
           </li>
-          <li>TU Delft, The Netherlands</li>
+          <li>Delft University of Technology, the Netherlands</li>
           <li>
             <SchoolIcon className={classes.column} />
-            Indian Institute of Technology (ISM), Dhanbad
+            BSc and MSc in Electrical Engineering and Computer Science,
+            2006-2011
           </li>
+          <li>Jacobs University, Germany</li>
         </ul>
       </div>
       <div className={classes.float}>
-        <h5 className={classes.heading}>
-          <b>Biography</b>
-        </h5>
+        <h5 className={classes.heading}>Biography</h5>
         <p className={classes.paragraph}>
-          Hey there! I’m Udbhav Bamba, an understudy at IIT(ISM) Dhanbad,
-          pursuing Integrated M. Tech in Mathematics and Computing. My interest
-          lies in understanding and developing deep learning systems. In the
-          course of recent years, I’ve worked on diverse projects, from research
-          endeavours to interning as an applied scientist at Amazon, India. I
-          frequently take part in machine learning and sports programming
-          competitions on Kaggle, codeforces, and so forth to explore recent
-          developments and fuel knowledge exploration. When I’m not
-          brainstorming ideas or furiously coding, I enjoy gaming, watching
-          movies and geeking about them
+          Hi, my name is Samee ur Rehman. I have a background in Electrical
+          Engineering and Computer Science with a focus on Applied Mathematics,
+          Signal Processing, Machine/Deep Learning and Optimization. I completed
+          my BSc and MSc from Jacobs University in Germany (2006-2011) in the
+          area of Electrical Engineering and Computer Science and then did a PhD
+          at Delft University of Technology, the Netherlands (2011-2015) on the
+          subject of Robust Optimization for Computationally Expensive Systems.
+          Since 2015, I have been working in industry as a Machine Learning
+          Engineer and as a Data Scientist. Within AI, I am particularly
+          interested in building robust learning algorithms, in biasing the
+          learning process such that it focuses on causal features, in
+          incentivizing models to learn to leverage the physics of the natural
+          world and in the use of Bayes Rule, Probability(Model given Data) =
+          Probability(Data given Model)Probability(Model)/P(Data), to build
+          interpretable intelligent systems. In general, I love the creative
+          process and I am someone who derives a lot of energy from starting
+          something original and from working with people in multidisciplinary
+          teams. My mission in life is to use our collective inventive and
+          innovative skills in order to help create a nurturing and enabling
+          environment for all of us so that we can build a better future
+          together! I enjoy learning, reading, writing, painting and playing
+          racket sports. You can learn more about me at sameeurrehman.com
         </p>
       </div>
     </div>

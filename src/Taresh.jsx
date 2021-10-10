@@ -74,10 +74,10 @@ const useStyles = makeStyles((theme) => ({
   transmute: {
     width: "100%",
     color: "#002147",
-    marginLeft: "17%",
+    marginLeft: "28%",
     [theme.breakpoints.up("md")]: {
       width: "70%",
-      marginLeft: "17%",
+      marginLeft: "28%",
       color: "#002147",
     },
   },
@@ -105,92 +105,82 @@ const useStyles = makeStyles((theme) => ({
     padding: "1%",
   },
 }));
-export default function Arnav() {
+export default function Taresh() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
       <div className={classes.left}>
         <div className={classes.image}>
-          <img src="./Udbhav Bamba.jpg" alt="udbhav" height="180" width="180" />
+          <img
+            src="../Taresh Rajput.jpg"
+            alt="Deepak k. gupta"
+            height="180"
+            width="180"
+          />
           <h5 className={classes.heading}>
-            <b>Udbhav Bamba</b>
+            <b>Deepak k. Gupta</b>
           </h5>
         </div>
         <h6 className={classes.heading0}>
-          <b>Student Researcher & Founding Member,</b>
+          <b>Research Scientist and Founding Member,</b>
         </h6>
         <h6 className={classes.transmute}>
-          <b>Kaggle Competition Master</b>
+          <b>Transmute AI</b>
         </h6>
         <div className={classes.icons}>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/taresh-rajput/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon fontSize="large" className={classes.iconsColor} />
+            <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="tareshrajput18@gmail.com"
             target="_blank"
             alt="email address"
             rel="noreferrer"
           >
-            <EmailIcon fontSize="large" className={classes.iconsColor} />
+            <EmailIcon className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/taresh18"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
           >
-            <GitHubIcon fontSize="large" className={classes.iconsColor} />
+            <GitHubIcon className={classes.iconsColor} />
           </a>
         </div>
       </div>
       <div className={classes.div}>
-        <h5 className={classes.heading}>
-          <b>Interests</b>
-        </h5>
+        <h5 className={classes.heading}>Interests</h5>
         <ol className={classes.paragraph}>
           <li>Deep Learning</li>
           <li>Computer Vision</li>
-          <li>Efficient architecture search</li>
         </ol>
       </div>
       <div className={classes.div}>
-        <h5 className={classes.heading}>
-          <b>Education</b>
-        </h5>
+        <h5 className={classes.heading}>Education</h5>
         <ul className={classes.paragraph}>
           <li>
             <SchoolIcon className={classes.column} />
-            Integrated Master of Technology in Mathematics and Computing,
-            2018-2023
+            Bachelor of Technology in Electrical Engineering, 2019-2023
           </li>
-          <li>TU Delft, The Netherlands</li>
-          <li>
-            <SchoolIcon className={classes.column} />
-            Indian Institute of Technology (ISM), Dhanbad
-          </li>
+          <li>Indian Institute of Technology, ISM Dhanbad, India</li>
         </ul>
       </div>
       <div className={classes.float}>
-        <h5 className={classes.heading}>
-          <b>Biography</b>
-        </h5>
+        <h5 className={classes.heading}>Biography</h5>
         <p className={classes.paragraph}>
-          Hey there! I’m Udbhav Bamba, an understudy at IIT(ISM) Dhanbad,
-          pursuing Integrated M. Tech in Mathematics and Computing. My interest
-          lies in understanding and developing deep learning systems. In the
-          course of recent years, I’ve worked on diverse projects, from research
-          endeavours to interning as an applied scientist at Amazon, India. I
-          frequently take part in machine learning and sports programming
-          competitions on Kaggle, codeforces, and so forth to explore recent
-          developments and fuel knowledge exploration. When I’m not
-          brainstorming ideas or furiously coding, I enjoy gaming, watching
-          movies and geeking about them
+          I’m Taresh Rajput, an undergraduate at IIT(ISM) Dhanbad, pursuing
+          Bachelor of Technology in Electrical Engineering. My interest lies in
+          Deep Learning particularly Computer Vision and Competitive
+          Programming. I am open to exploring new opportunities in research
+          endeavours. I regularly take part in sports programming competitions
+          hosted on Codeforces, Codechef, Atcoder etc. In my spare time, I enjoy
+          gaming, watching movies, web series and anime.
         </p>
       </div>
     </div>

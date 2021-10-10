@@ -4,7 +4,6 @@ import "materialize-css/dist/css/materialize.min.css";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import IconButton from "@material-ui/core/IconButton";
@@ -28,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "40px",
   },
   title: {
-    flexGrow: 1,
+    marginRight: "auto",
   },
   youtube: {
     color: "white",
@@ -141,9 +140,9 @@ export default function Nav() {
         <div className={classes.root}>
           <AppBar position="static" className={classes.navbar}>
             <Toolbar>
-              <Typography variant="h6" className={classes.title}>
-                Transmute AI
-              </Typography>
+              <div className={classes.title}>
+                <img src="./logo.png" alt="logo" width="240" height="45" />
+              </div>
               <Button
                 color="inherit"
                 onClick={() => history.push("/TransmuteAI")}
@@ -211,9 +210,9 @@ export default function Nav() {
                   </React.Fragment>
                 </div>
               </IconButton>
-              <Typography variant="h6" className={classes.title}>
-                Transmute AI
-              </Typography>
+              <div className={classes.title}>
+                <img src="./logo.png" alt="logo" width="200" height="30" />
+              </div>
               <a
                 href="https://www.youtube.com/channel/UCSBllKwExVPNLDrK1Ujexkw"
                 target="_blank"

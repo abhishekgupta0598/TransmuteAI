@@ -43,12 +43,12 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#1ca9c9",
     width: "100%",
     fontSize: "30px",
     [theme.breakpoints.up("md")]: {
-      fontFamily: "Serif",
+      fontFamily: "Sans-serif",
       color: "#002147",
       width: "40%",
       fontSize: "42px",
@@ -56,20 +56,25 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   boxheading: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#1ca9c9",
     [theme.breakpoints.up("md")]: {
-      fontFamily: "Serif",
+      fontFamily: "Sans-serif",
       color: "#002147",
     },
   },
   boxparagraph: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     fontSize: "15px",
     [theme.breakpoints.up("md")]: {
-      fontFamily: "Serif",
+      fontFamily: "Sans-serif",
       fontSize: "17px",
     },
+  },
+  video: {
+    position: "fixed",
+    minWidth: "100%",
+    minHeight: "100%",
   },
 }));
 
@@ -77,6 +82,11 @@ export default function Home() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
+      {/* <video autoPlay muted loop>
+        <source src="../video.mp4" type="video/mp4" className={classes.video} />
+        video is not supperted!
+      </video> */}
+      {/* <img src="../Deepak_Gupta.jpeg" className={classes.video} alt="udbhav" /> */}
       <h3 className={classes.heading}>
         <b>Transmute AI Lab</b>
       </h3>

@@ -74,10 +74,10 @@ const useStyles = makeStyles((theme) => ({
   transmute: {
     width: "100%",
     color: "#002147",
-    marginLeft: "17%",
+    marginLeft: "28%",
     [theme.breakpoints.up("md")]: {
       width: "70%",
-      marginLeft: "17%",
+      marginLeft: "28%",
       color: "#002147",
     },
   },
@@ -105,92 +105,90 @@ const useStyles = makeStyles((theme) => ({
     padding: "1%",
   },
 }));
-export default function Arnav() {
+export default function Silvia() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
       <div className={classes.left}>
         <div className={classes.image}>
-          <img src="./Udbhav Bamba.jpg" alt="udbhav" height="180" width="180" />
+          <img
+            src="../Silvia Sultana.jpg"
+            alt="Deepak k. gupta"
+            height="180"
+            width="180"
+          />
           <h5 className={classes.heading}>
-            <b>Udbhav Bamba</b>
+            <b>Silvia Sultana</b>
           </h5>
         </div>
         <h6 className={classes.heading0}>
-          <b>Student Researcher & Founding Member,</b>
+          <b>Student Researcher, Incoming Student</b>
         </h6>
         <h6 className={classes.transmute}>
-          <b>Kaggle Competition Master</b>
+          <b>@TU Eindhoven</b>
         </h6>
         <div className={classes.icons}>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/silvia-sultana-017256198/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon fontSize="large" className={classes.iconsColor} />
+            <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="silviasultana29@gmail.com"
             target="_blank"
             alt="email address"
             rel="noreferrer"
           >
-            <EmailIcon fontSize="large" className={classes.iconsColor} />
+            <EmailIcon className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/Silvia29"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
           >
-            <GitHubIcon fontSize="large" className={classes.iconsColor} />
+            <GitHubIcon className={classes.iconsColor} />
           </a>
         </div>
       </div>
       <div className={classes.div}>
-        <h5 className={classes.heading}>
-          <b>Interests</b>
-        </h5>
+        <h5 className={classes.heading}>Interests</h5>
         <ol className={classes.paragraph}>
-          <li>Deep Learning</li>
+          <li>Data Analysis</li>
           <li>Computer Vision</li>
-          <li>Efficient architecture search</li>
+          <li>Machine Learning for Predictive Analysis</li>
         </ol>
       </div>
       <div className={classes.div}>
-        <h5 className={classes.heading}>
-          <b>Education</b>
-        </h5>
+        <h5 className={classes.heading}>Education</h5>
         <ul className={classes.paragraph}>
           <li>
             <SchoolIcon className={classes.column} />
-            Integrated Master of Technology in Mathematics and Computing,
-            2018-2023
-          </li>
-          <li>TU Delft, The Netherlands</li>
-          <li>
-            <SchoolIcon className={classes.column} />
-            Indian Institute of Technology (ISM), Dhanbad
+            B.Tech in Information Technology, 2016-2020 Government College of
+            Engineering and Ceramic Technology
           </li>
         </ul>
       </div>
       <div className={classes.float}>
-        <h5 className={classes.heading}>
-          <b>Biography</b>
-        </h5>
+        <h5 className={classes.heading}>Biography</h5>
         <p className={classes.paragraph}>
-          Hey there! I’m Udbhav Bamba, an understudy at IIT(ISM) Dhanbad,
-          pursuing Integrated M. Tech in Mathematics and Computing. My interest
-          lies in understanding and developing deep learning systems. In the
-          course of recent years, I’ve worked on diverse projects, from research
-          endeavours to interning as an applied scientist at Amazon, India. I
-          frequently take part in machine learning and sports programming
-          competitions on Kaggle, codeforces, and so forth to explore recent
-          developments and fuel knowledge exploration. When I’m not
-          brainstorming ideas or furiously coding, I enjoy gaming, watching
-          movies and geeking about them
+          Hello! I am Silvia Sultana. Based on my interests in Deep Learning and
+          Data Science,I decided to pursue Masters after graduation in the hope
+          of gathering more knowledge - both theoretical and practical. I will
+          be joining TU Eindhoven for their Masters program in “Data Science in
+          Engineering”(2021-23) along with the ALSP-HS Scholarship provided by
+          the university. Thoughout my undergraduate,I have worked on diverse
+          projects both under research universities and startups. Originally I
+          was keenly interested in the science of predictive analysis and
+          statistical modelling,however,it was with interning at IIT Patna in
+          their AI-NLP-ML Lab that I started studying about Deep Learning.Even
+          though I took part in several Hackathons during my undergraduate
+          years,Kaggle is my recent new found playground(Better Late than
+          Never!). When not studying,I like to read fiction books and write for
+          online media networks.
         </p>
       </div>
     </div>

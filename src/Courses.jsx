@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   heading: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#002147",
     fontSize: "32px",
     [theme.breakpoints.up("sm")]: {

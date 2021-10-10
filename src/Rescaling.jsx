@@ -32,24 +32,24 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#1ca9c9",
     fontSize: "30px",
     [theme.breakpoints.up("sm")]: {
       fontSize: "42px",
-      fontFamily: "Serif",
+      fontFamily: "Sans-serif",
       color: "#002147",
     },
   },
   abstract: {
-    fontFamily: "Serif",
+    fontFamily: "Sans-serif",
     color: "#1ca9c9",
     fontSize: "28px",
     clear: "left",
     paddingTop: "2%",
     [theme.breakpoints.up("sm")]: {
       fontSize: "36px",
-      fontFamily: "Serif",
+      fontFamily: "Sans-serif",
       color: "#002147",
       clear: "left",
     },
