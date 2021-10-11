@@ -331,7 +331,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paragraph: {
     fontFamily: "Sans-serif",
-    fontSize: "16px",
+    fontSize: "12px",
     [theme.breakpoints.up("md")]: {
       fontSize: "18px",
     },

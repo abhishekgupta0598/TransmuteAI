@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     width: "40%",
     fontSize: "38px",
     color: "#002147",
+    clear: "left",
     [theme.breakpoints.up("md")]: {
       fontFamily: "sans-serif",
       width: "40%",
@@ -34,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
     float: "none",
     marginBottom: "5%",
     boxShadow: "0 0 12px #9E9E9E",
+    height: "240px",
     [theme.breakpoints.up("md")]: {
       width: "30%",
       marginBottom: "1%",
@@ -59,42 +61,55 @@ const useStyles = makeStyles((theme) => ({
   },
   director: {
     width: "100%",
-    height: "auto",
+    height: "262px",
     [theme.breakpoints.up("md")]: {
       width: "94%",
       boxShadow: "0 0 12px #9E9E9E",
-      height: "330px",
+      height: "370px",
       padding: "1%",
     },
   },
   img: {
     width: "100%",
     boxShadow: "0 0 12px #9E9E9E",
-    borderRadius: "5px",
     cursor: "pointer",
+    height: "100%",
     [theme.breakpoints.up("md")]: {
-      width: "26%",
+      width: "28%",
       marginRight: "7%",
-      height: "270px",
+      // height: "270px",
+      height: "78%",
       boxShadow: "0 0 12px #9E9E9E",
       float: "left",
     },
   },
   paragraph: {
     width: "100%",
+    display: "none",
     [theme.breakpoints.up("md")]: {
       width: "100%",
+      display: "block",
     },
   },
   iconsColor: {
     color: "#002147",
-    fontSize: "30px",
+    fontSize: "26px",
     float: "left",
+    [theme.breakpoints.up("md")]: {
+      color: "#002147",
+      fontSize: "30px",
+      float: "left",
+    },
   },
   iconsForDirector: {
     color: "#002147",
-    fontSize: "36px",
+    fontSize: "28px",
     float: "left",
+    [theme.breakpoints.up("md")]: {
+      color: "#002147",
+      fontSize: "36px",
+      float: "left",
+    },
   },
 }));
 
@@ -112,9 +127,12 @@ export default function Home() {
           <img
             src="./Deepak_Gupta.jpeg"
             alt="director"
-            height="270"
-            width="262"
+            // height="270"
+            // width="262"
+            height="100%"
+            width="100%"
           />
+          <h6>Deepak k. Gupta</h6>
           <a
             href="https://www.linkedin.com/in/bart-van-erp/"
             alt="LinkedIn"
@@ -151,14 +169,15 @@ export default function Home() {
           on improving seismic data analysis using artificial intelligence.
         </p>
       </div>
+
       <div className={classes.container}>
         <h4 className={classes.heading}>Teams</h4>
         <div className={classes.images}>
           <img
             src="./logo192.png"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/arnav")}
           />
@@ -192,8 +211,8 @@ export default function Home() {
           <img
             src="./Udbhav Bamba.jpg"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/udbhav")}
           />
@@ -227,8 +246,8 @@ export default function Home() {
           <img
             src="./Rishabh_Tiwari.jpeg"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/rishab")}
           />
@@ -262,8 +281,8 @@ export default function Home() {
           <img
             src="./logo192.png"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/bryan")}
           />
@@ -297,8 +316,8 @@ export default function Home() {
           <img
             src="./Devanshu_Arya.jpeg"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/deepanshu")}
           />
@@ -332,8 +351,8 @@ export default function Home() {
           <img
             src="./Chetan Pandey.jpg"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/chetan")}
           />
@@ -368,8 +387,8 @@ export default function Home() {
           <img
             src="./Samee Ur Rehman.jpeg"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/samee")}
           />
@@ -404,8 +423,8 @@ export default function Home() {
           <img
             src="./logo192.png"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/saksham")}
           />
@@ -439,8 +458,8 @@ export default function Home() {
           <img
             src="./Silvia Sultana.jpg"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/silvia")}
           />
@@ -474,8 +493,8 @@ export default function Home() {
           <img
             src="./Taresh Rajput.jpg"
             alt="director"
-            height="250"
-            width="285"
+            height="76%"
+            width="100%"
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/taresh")}
           />

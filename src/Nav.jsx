@@ -156,7 +156,7 @@ export default function Nav() {
               >
                 Home
               </Button>
-              <Button color="inherit">Projects</Button>
+              <Button color="inherit">Research Projects</Button>
               <Button
                 color="inherit"
                 onClick={() => history.push("/TransmuteAI/members")}
