@@ -8,10 +8,11 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "100%",
+    width: "70%",
+    marginLeft: "15%",
     padding: "1%",
     [theme.breakpoints.up("md")]: {
-      width: "78%",
+      width: "80%",
       marginLeft: "10%",
     },
   },
@@ -35,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     float: "none",
     marginBottom: "5%",
     boxShadow: "0 0 12px #9E9E9E",
-    height: "240px",
+    height: "260px",
     [theme.breakpoints.up("md")]: {
       width: "30%",
       marginBottom: "1%",

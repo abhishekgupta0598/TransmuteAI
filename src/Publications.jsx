@@ -3,22 +3,322 @@ import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
 import { makeStyles } from "@material-ui/core/styles";
 import { useHistory } from "react-router-dom";
+// import * as React from "react";
+import { useTheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import MobileStepper from "@mui/material/MobileStepper";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
+// import Button from "@mui/material/Button";
+import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
+import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
+import SwipeableViews from "react-swipeable-views";
+import { autoPlay } from "react-swipeable-views-utils";
+
+const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+
+const images = [
+  {
+    label: "GeneratingImg2",
+    imgPath: "./GeneratingImg2.png",
+  },
+  {
+    label: "GeneratingImg4",
+    imgPath: "./GeneratingImg4.png",
+  },
+  {
+    label: "GeneratingImg3",
+    imgPath: "./GeneratingImg3.png",
+  },
+];
+
+const images1 = [
+  {
+    label: "RescalingImg1",
+    imgPath: "./RescalingImg1.png",
+  },
+  {
+    label: "RescalingImg2",
+    imgPath: "./RescalingImg2.png",
+  },
+  {
+    label: "RescalingImg3",
+    imgPath: "./RescalingImg3.png",
+  },
+];
+
+const images2 = [
+  {
+    label: "CHIPNET_2",
+    imgPath: "./CHIPNET_2.png",
+  },
+  {
+    label: "CHIPNET_3",
+    imgPath: "./CHIPNET_3.png",
+  },
+  {
+    label: "CHIPNET_3",
+    imgPath: "./CHIPNET_3.png",
+  },
+];
 
 export default function Publications() {
   const classes = useStyles();
   const history = useHistory();
+  const theme = useTheme();
+  const [activeStep, setActiveStep] = React.useState(0);
+  const maxSteps = images.length;
+
+  const handleNext = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+  };
+
+  const handleBack = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  };
+
+  const handleStepChange = (step) => {
+    setActiveStep(step);
+  };
   return (
     <div className={classes.root}>
       <h5 className={classes.header}>PUBLICATIONS</h5>
       <div className={classes.float}>
         <div>
-          <img src="./logo192.png" alt="Deepak k. gupta" />
+          <Box
+            sx={{ maxWidth: 400, flexGrow: 1 }}
+            className={classes.imageMargin}
+          >
+            <Paper
+              square
+              elevation={0}
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                height: 0,
+                pl: 2,
+                bgcolor: "background.default",
+              }}
+            >
+              {/* <Typography>{images[activeStep].label}</Typography> */}
+            </Paper>
+            <AutoPlaySwipeableViews
+              axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+              index={activeStep}
+              onChangeIndex={handleStepChange}
+              enableMouseEvents
+            >
+              {images1.map((step, index) => (
+                <div key={step.label}>
+                  {Math.abs(activeStep - index) <= 2 ? (
+                    <Box
+                      component="img"
+                      sx={{
+                        height: 166,
+                        display: "block",
+                        maxWidth: 400,
+                        overflow: "hidden",
+                        width: "100%",
+                      }}
+                      src={step.imgPath}
+                      alt={step.label}
+                    />
+                  ) : null}
+                </div>
+              ))}
+            </AutoPlaySwipeableViews>
+            {/* <MobileStepper
+              steps={maxSteps}
+              position="static"
+              activeStep={activeStep}
+              nextButton={
+                <Button
+                  size="small"
+                  onClick={handleNext}
+                  disabled={activeStep === maxSteps - 1}
+                >
+                  Next
+                  {theme.direction === "rtl" ? (
+                    <KeyboardArrowLeft />
+                  ) : (
+                    <KeyboardArrowRight />
+                  )}
+                </Button>
+              }
+              backButton={
+                <Button
+                  size="small"
+                  onClick={handleBack}
+                  disabled={activeStep === 0}
+                >
+                  {theme.direction === "rtl" ? (
+                    <KeyboardArrowRight />
+                  ) : (
+                    <KeyboardArrowLeft />
+                  )}
+                  Back
+                </Button>
+              }
+            /> */}
+          </Box>
         </div>
         <div>
-          <img src="./logo192.png" alt="Deepak k. gupta" />
+          {/* <img src="./logo192.png" alt="Deepak k. gupta" /> */}
+          <Box
+            sx={{ maxWidth: 400, flexGrow: 1 }}
+            className={classes.imageMargin}
+          >
+            <Paper
+              square
+              elevation={0}
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                height: 0,
+                pl: 2,
+                bgcolor: "background.default",
+              }}
+            >
+              {/* <Typography>{images[activeStep].label}</Typography> */}
+            </Paper>
+            <AutoPlaySwipeableViews
+              axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+              index={activeStep}
+              onChangeIndex={handleStepChange}
+              enableMouseEvents
+            >
+              {images.map((step, index) => (
+                <div key={step.label}>
+                  {Math.abs(activeStep - index) <= 2 ? (
+                    <Box
+                      component="img"
+                      sx={{
+                        height: 176,
+                        display: "block",
+                        maxWidth: 400,
+                        overflow: "hidden",
+                        width: "100%",
+                      }}
+                      src={step.imgPath}
+                      alt={step.label}
+                    />
+                  ) : null}
+                </div>
+              ))}
+            </AutoPlaySwipeableViews>
+            {/* <MobileStepper
+              steps={maxSteps}
+              position="static"
+              activeStep={activeStep}
+              nextButton={
+                <Button
+                  size="small"
+                  onClick={handleNext}
+                  disabled={activeStep === maxSteps - 1}
+                >
+                  Next
+                  {theme.direction === "rtl" ? (
+                    <KeyboardArrowLeft />
+                  ) : (
+                    <KeyboardArrowRight />
+                  )}
+                </Button>
+              }
+              backButton={
+                <Button
+                  size="small"
+                  onClick={handleBack}
+                  disabled={activeStep === 0}
+                >
+                  {theme.direction === "rtl" ? (
+                    <KeyboardArrowRight />
+                  ) : (
+                    <KeyboardArrowLeft />
+                  )}
+                  Back
+                </Button>
+              }
+            /> */}
+          </Box>
         </div>
         <div>
-          <img src="./logo192.png" alt="Deepak k. gupta" />
+          {/* <img src="./logo192.png" alt="Deepak k. gupta" /> */}
+          <Box
+            sx={{ maxWidth: 400, flexGrow: 1 }}
+            className={classes.imageMargin}
+          >
+            <Paper
+              square
+              elevation={0}
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                height: 0,
+                pl: 2,
+                bgcolor: "background.default",
+              }}
+            >
+              {/* <Typography>{images[activeStep].label}</Typography> */}
+            </Paper>
+            <AutoPlaySwipeableViews
+              axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+              index={activeStep}
+              onChangeIndex={handleStepChange}
+              enableMouseEvents
+            >
+              {images2.map((step, index) => (
+                <div key={step.label}>
+                  {Math.abs(activeStep - index) <= 2 ? (
+                    <Box
+                      component="img"
+                      sx={{
+                        height: 176,
+                        display: "block",
+                        maxWidth: 400,
+                        overflow: "hidden",
+                        width: "100%",
+                      }}
+                      src={step.imgPath}
+                      alt={step.label}
+                    />
+                  ) : null}
+                </div>
+              ))}
+            </AutoPlaySwipeableViews>
+            {/* <MobileStepper
+              steps={maxSteps}
+              position="static"
+              activeStep={activeStep}
+              nextButton={
+                <Button
+                  size="small"
+                  onClick={handleNext}
+                  disabled={activeStep === maxSteps - 1}
+                >
+                  Next
+                  {theme.direction === "rtl" ? (
+                    <KeyboardArrowLeft />
+                  ) : (
+                    <KeyboardArrowRight />
+                  )}
+                </Button>
+              }
+              backButton={
+                <Button
+                  size="small"
+                  onClick={handleBack}
+                  disabled={activeStep === 0}
+                >
+                  {theme.direction === "rtl" ? (
+                    <KeyboardArrowRight />
+                  ) : (
+                    <KeyboardArrowLeft />
+                  )}
+                  Back
+                </Button>
+              }
+            /> */}
+          </Box>
         </div>
       </div>
       <div className={classes.left}>
@@ -309,7 +609,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "16px",
     cursor: "pointer",
     [theme.breakpoints.up("md")]: {
-      fontSize: "18px",
+      fontSize: "16px",
       marginTop: "-11px",
     },
   },
@@ -335,5 +635,8 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       fontSize: "18px",
     },
+  },
+  imageMargin: {
+    marginTop: "4%",
   },
 }));
