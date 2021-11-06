@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TransmuteAI/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/TransmuteAI/static/js/main.6fe8bf5b.chunk.js",
-    "main.js.map": "/TransmuteAI/static/js/main.6fe8bf5b.chunk.js.map",
+    "main.js": "/TransmuteAI/static/js/main.070bddd4.chunk.js",
+    "main.js.map": "/TransmuteAI/static/js/main.070bddd4.chunk.js.map",
     "runtime-main.js": "/TransmuteAI/static/js/runtime-main.77970216.js",
     "runtime-main.js.map": "/TransmuteAI/static/js/runtime-main.77970216.js.map",
     "static/css/2.b0300f7a.chunk.css": "/TransmuteAI/static/css/2.b0300f7a.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.b0300f7a.chunk.css",
     "static/js/2.532aeb90.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.6fe8bf5b.chunk.js"
+    "static/js/main.070bddd4.chunk.js"
   ]
 }
