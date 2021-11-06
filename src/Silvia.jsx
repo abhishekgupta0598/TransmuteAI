@@ -137,7 +137,7 @@ export default function Silvia() {
             <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="silviasultana29@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"

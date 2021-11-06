@@ -137,7 +137,7 @@ export default function Chetan() {
             <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="chetan.19je0259@ece.iitism.ac.in"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"

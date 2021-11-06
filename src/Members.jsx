@@ -135,7 +135,7 @@ export default function Home() {
           />
           <h6>Deepak k. Gupta</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/deepak-gupta-05b48828/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -146,7 +146,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -154,7 +154,7 @@ export default function Home() {
             <EmailIcon fontSize="large" className={classes.iconsForDirector} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/dkgupta90"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
@@ -184,7 +184,7 @@ export default function Home() {
           />
           <h6>Arnav Chavan</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/arnav0400/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -192,7 +192,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -200,8 +200,8 @@ export default function Home() {
             <EmailIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
-            alt="git hub"
+            href="https://github.com/Arnav0400/"
+            alt="Github"
             target="_blank"
             rel="noreferrer"
           >
@@ -227,7 +227,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -254,7 +254,7 @@ export default function Home() {
           />
           <h6>Rishabh Tiwari</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/rishabh-tiwari16/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -262,7 +262,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -270,7 +270,7 @@ export default function Home() {
             <EmailIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/rishabh-16/"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
@@ -287,7 +287,7 @@ export default function Home() {
             style={{ cursor: "pointer" }}
             onClick={() => history.push("/TransmuteAI/publications/bryan")}
           />
-          <h6>Rishabh Tiwari</h6>
+          <h6>Bryan Cardenas</h6>
           <a
             href="https://www.linkedin.com/in/bart-van-erp/"
             alt="LinkedIn"
@@ -297,7 +297,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -324,7 +324,7 @@ export default function Home() {
           />
           <h6>Devanshu Arya</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/devanshu-arya-43585246/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -332,7 +332,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -340,7 +340,7 @@ export default function Home() {
             <EmailIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/devanshuarya"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
@@ -359,7 +359,7 @@ export default function Home() {
           />
           <h6>Chetan Pandey</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/chetan0/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -367,7 +367,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -375,7 +375,7 @@ export default function Home() {
             <EmailIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/chetanpandey1266/"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
@@ -403,7 +403,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -431,7 +431,7 @@ export default function Home() {
           />
           <h6>Saksham Aggarwal</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/saksham-aggarwal-14a854192/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -439,7 +439,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -447,7 +447,7 @@ export default function Home() {
             <EmailIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/saksham20aggarwal"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
@@ -466,7 +466,7 @@ export default function Home() {
           />
           <h6>Silvia Sultana</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/silvia-sultana-017256198/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -474,7 +474,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -482,7 +482,7 @@ export default function Home() {
             <EmailIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/Silvia29"
             alt="git hub"
             target="_blank"
             rel="noreferrer"
@@ -501,7 +501,7 @@ export default function Home() {
           />
           <h6>Taresh Rajput</h6>
           <a
-            href="https://www.linkedin.com/in/bart-van-erp/"
+            href="https://www.linkedin.com/in/taresh-rajput/"
             alt="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -509,7 +509,7 @@ export default function Home() {
             <LinkedInIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="ubamba98@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"
@@ -517,7 +517,7 @@ export default function Home() {
             <EmailIcon fontSize="small" className={classes.iconsColor} />
           </a>
           <a
-            href="https://github.com/bartvanerp/"
+            href="https://github.com/taresh18"
             alt="git hub"
             target="_blank"
             rel="noreferrer"

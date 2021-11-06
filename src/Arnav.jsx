@@ -132,7 +132,7 @@ export default function Arnav() {
             <LinkedInIcon className={classes.iconsColor} fontSize="large" />
           </a>
           <a
-            href="arnavchavan04@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"

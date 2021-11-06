@@ -137,7 +137,7 @@ export default function Taresh() {
             <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="tareshrajput18@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"

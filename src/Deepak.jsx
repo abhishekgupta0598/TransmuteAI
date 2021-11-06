@@ -137,7 +137,7 @@ export default function Deepak() {
             <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="guptadeepak2806@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"

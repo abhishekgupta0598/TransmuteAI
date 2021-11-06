@@ -58,11 +58,14 @@ export default class App extends Component {
               path="/TransmuteAI/publications/generating"
               component={Generating}
             />
-            <Route path="/TransmuteAI/members/chetan" component={Chetan} />
-            <Route path="/TransmuteAI/members/samee" component={Samee} />
-            <Route path="/TransmuteAI/members/silvia" component={Silvia} />
-            <Route path="/TransmuteAI/members/saksham" component={Saksham} />
-            <Route path="/TransmuteAI/members/taresh" component={Taresh} />
+            <Route path="/TransmuteAI/publications/chetan" component={Chetan} />
+            <Route path="/TransmuteAI/publications/samee" component={Samee} />
+            <Route path="/TransmuteAI/publications/silvia" component={Silvia} />
+            <Route
+              path="/TransmuteAI/publications/saksham"
+              component={Saksham}
+            />
+            <Route path="/TransmuteAI/publications/taresh" component={Taresh} />
           </Switch>
         </Router>
       </div>

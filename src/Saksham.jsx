@@ -137,7 +137,7 @@ export default function Saksham() {
             <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="sakshamaggarwal20@gmail.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"

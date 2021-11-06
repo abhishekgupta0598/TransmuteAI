@@ -137,7 +137,7 @@ export default function Samee() {
             <LinkedInIcon className={classes.iconsColor} />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.gmail.com/"
             target="_blank"
             alt="email address"
             rel="noreferrer"

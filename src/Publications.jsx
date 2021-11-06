@@ -57,8 +57,8 @@ const images2 = [
     imgPath: "./CHIPNET_3.png",
   },
   {
-    label: "CHIPNET_3",
-    imgPath: "./CHIPNET_3.png",
+    label: "CHIPNET_4",
+    imgPath: "./CHIPNET_5.png",
   },
 ];
 
